@@ -38,7 +38,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache", github: "hydecorp/jekyll-include-cache"
-  gem "jekyll-commonmark"
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"

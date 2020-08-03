@@ -58,10 +58,6 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
-# Pagination configuration (used by the `blog` layout)
-# paginate:  10
-# paginate_path: /blog/:num/
-
 theme: jekyll-theme-hydejack
 
 ########################################################################################################################
@@ -100,12 +96,12 @@ defaults:
     values:
       accent_color: rgb(38,139,210)
       accent_image:
-      background:  rgb(32,32,32)
+      background: rgb(32,32,32)
       overlay: false
 
   # Don't include documents in assets in the sitemap
   - scope:
-      path:  assets/
+      path: assets/
     values:
       sitemap: false
 
@@ -125,10 +121,10 @@ defaults:
         type: WebPage
 
 
-markdown: CommonMark
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table"]
+kramdown:
+  math_engine: katex
+  math_engine_opts: {}
+  footnote_backlink: "&#x21a9;&#xfe0e;"
 
 
 # 3rd Party Integrations
@@ -136,7 +132,7 @@ commonmark:
 
 # Set the Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from the page, remove the line below.
-# google_analytics:  UA-XXXXXXXX-X
+# google_analytics: UA-XXXXXXXX-X
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -144,7 +140,7 @@ commonmark:
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
-# tinyletter:  <username>
+# tinyletter: <username>
 
 
 ########################################################################################################################
@@ -156,10 +152,10 @@ hydejack:
   post_addons: [about, newsletter, related, random, comments]
 
   # Configure the order of complementary content on project pages
-  project_addons:  [about, newsletter, other, comments]
+  project_addons: [about, newsletter, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:  true
+  no_mark_external: true
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state: false
@@ -190,7 +186,7 @@ hydejack:
   no_break_layout: true
 
   # Set to `true` to disable the dynamic Table of Contents on large screens.
-  no_toc:  false
+  no_toc: false
 
   # When set to `true`, will not extend the content in the "third column" on large screens.
   # Instead, all content will remains within the center column.
@@ -218,7 +214,7 @@ hydejack:
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date.
-  hide_dates:  false
+  hide_dates: false
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
@@ -291,7 +287,6 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
-  - jekyll-commonmark
 
 
 ########################################################################################################################

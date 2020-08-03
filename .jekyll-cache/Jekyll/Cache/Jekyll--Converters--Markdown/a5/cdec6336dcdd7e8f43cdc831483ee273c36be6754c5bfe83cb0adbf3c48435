@@ -1,26 +1,45 @@
-I"Æ<p>A story of <a href="https://jekyllrb.com">Jekyll</a>,<a href="https://github.com">GitHub</a>, and <a href="https://www.netlify.com/">Netlify</a>.
-{:.lead}</p>
-<ul>
-<li>Table of Contents
-{:toc}</li>
+I"Ÿ
+<p class="lead">A story of <a href="https://jekyllrb.com">Jekyll</a>,<a href="https://github.com">GitHub</a>, and <a href="https://www.netlify.com/">Netlify</a>.</p>
+
+<ul id="markdown-toc">
+  <li><a href="#intro" id="markdown-toc-intro">Intro</a>    <ul>
+      <li><a href="#why" id="markdown-toc-why">Why</a></li>
+    </ul>
+  </li>
+  <li><a href="#jekyll" id="markdown-toc-jekyll">Jekyll</a>    <ul>
+      <li><a href="#hydejack-theme" id="markdown-toc-hydejack-theme">Hydejack Theme</a></li>
+    </ul>
+  </li>
+  <li><a href="#netlify-cms" id="markdown-toc-netlify-cms">Netlify CMS</a></li>
 </ul>
-<h2>Intro</h2>
-<h3>Why</h3>
+
+<h2 id="intro">Intro</h2>
+
+<h3 id="why">Why</h3>
+
 <p>From my <a href="/about/">about me</a>:</p>
 <blockquote>
-<p>Learning is my biggest motivator.</p>
+  <p>Learning is my biggest motivator.</p>
 </blockquote>
+
 <p>Itâ€™s become evident that documentation is a critical piece of working in IT.
 Making a functional website has been an aim of mine for a while. The problems I
 run into on a daily basis as part of working in IT are not my own. My solutions
 can benefit others, as well as act as self-documentation for</p>
+
 <p>I have wanted to begin blogging
 for a number of years now, and the roadblock has always been starting my own
 website and making it trivial to add new blog posts.</p>
-<h2>Jekyll</h2>
+
+<h2 id="jekyll">Jekyll</h2>
+
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<h3>Hydejack Theme</h3>
+
+<h3 id="hydejack-theme">Hydejack Theme</h3>
+
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<h2>Netlify CMS</h2>
+
+<h2 id="netlify-cms">Netlify CMS</h2>
+
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 :ET
