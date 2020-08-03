@@ -1,0 +1,17 @@
+I"Ì
+
+
+<img
+  
+    src="/assets/img/logo.png"
+    srcset="/assets/img/logo.png 1x,/assets/img/logo.png 2x"
+    
+  
+  alt="Dan Tsekhanskiy"
+  class="avatar"
+  
+  width="120"
+  height="120"
+  loading="lazy"
+/>
+:ET
