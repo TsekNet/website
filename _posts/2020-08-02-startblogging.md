@@ -8,8 +8,8 @@ hide_description: true
 sitemap: true
 ---
 
-Why wasn't I doing this before?
-{:.lead}
+Let's get building!
+{:.figcaption}
 
 - Table of Contents
 {:toc}
@@ -66,30 +66,33 @@ Let's dive right in with how *you* can copy my homework.
 
 ### Installation
 
-> NOTE: Prior to going through these instructions, you may want to locate a
-> Jekyll theme that you prefer over the default. Otherwise, you may need to
-> start over with your preferred theme. See [below](#my-jekyll-theme) for my theme.
+Prior to going through these instructions, you may want to locate a
+Jekyll theme that you prefer over the default. Otherwise, you may need to
+start over with your preferred theme. See [below](#my-jekyll-theme) for my
+theme.
+{:.note title="IMPORTANT"}
 
 1. Install [Chocolately](https://chocolatey.org/install), a (great) software management solution.
-1. Install ruby: `choco install ruby`
-1. Close/Reopen your preferred terminal as admin or refresh your environment.
-1. Install bundler: `gem install bundler`
-1. Install Jekyll:
+2. Install ruby: `choco install ruby`
+3. Close/Reopen your preferred terminal as admin or refresh your environment.
+4. Install bundler: `gem install bundler`
+5. Install Jekyll:
    - Install mysys2: `choco install msys2 `
    - Install the Ruby Installer Development Kit: `ridk install 3`
    - `gem install jekyll`
-1. Navigate to the root folder for your blog, for example: `cd C:\Projects`
-1. Configure your blog: `jekyll new myblog; cd myblog; bundle install`
-1. Start your blog: `jekyll serve`
-1. Browse to <http://localhost:4000>. Congrats, \<you're the blogger now\>.gif 🎉
+6. Navigate to the root folder for your blog, for example: `cd C:\Projects`
+7. Configure your blog: `jekyll new myblog; cd myblog; bundle install`
+8. Start your blog: `jekyll serve`
+9. Browse to <http://localhost:4000>. Congrats, \<you're the blogger now\>.gif 🎉
 
 #### My Jekyll Theme
 
 For this website, I chose the [Hydejack](https://hydejack.com) Pro theme. This
 is a paid theme, and includes all the files required to start a website.
 
-> WARNING: This theme required heavy modifications to configuration files
-> prior to launching my website.
+This theme required heavy modifications to configuration files
+prior to launching my website.
+{:.note title="WARNING"}
 
 ### Customization and Iteration
 
@@ -129,8 +132,11 @@ create a repo for your website:
 1. Click `Create Repository`
 1. Clone your newly created repo via VSCode. See this [post](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33) for more info.
 
-> NOTE: I manage my repo in VSCode, but this
-> will work via the [command line](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) as well.
+I manage my repo in VSCode, but this
+will work via the [command
+line](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+as well.
+{:.note title="tip"}
 
 ### GitHub Files
 
@@ -172,8 +178,9 @@ guide](https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-4.0-o
 3. Build your site. You should now see `Deploy in progress`, and after a minute
    or so, your new website (with a custom URL) should be live!
 
-> TIP: Netlify has wonderful (and documented) support for automatic SSL via [LetsEncrypt](https://docs.netlify.com/domains-https/https-ssl) and
-> [custom domains](https://docs.netlify.com/domains-https/custom-domains).
+Netlify has wonderful (and documented) support for automatic SSL via [LetsEncrypt](https://docs.netlify.com/domains-https/https-ssl) and
+[custom domains](https://docs.netlify.com/domains-https/custom-domains).
+{:.note title="TIP"}
 
 ## Summary
 
@@ -183,3 +190,8 @@ plugins available. I hope you've found this guide useful. As always, if there
 are any issues, please reach out to me directly and I'll get to them ASAP.
 
 Now get out there and build that beautiful website!
+
+## Related Links
+
+- [Hosting Your Website With Github and Netlify](https://www.youtube.com/watch?v=hBQlCtfRmqs)
+- [Setup Custom Domain On Netlify](https://www.youtube.com/watch?v=Q9giWrfIJKk)
