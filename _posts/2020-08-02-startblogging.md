@@ -25,7 +25,7 @@ Once completed, your new website will have the following benefits:
 1. Writing blog posts is just adding a markdown file.
 1. Free, automatic SSL
 1. Custom domain support
-1. Quick Deployments, include CI/CD
+1. Quick Deployments, including CI/CD
 1. ...and much more!
 
 ## Requirements
@@ -174,3 +174,12 @@ guide](https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-4.0-o
 
 > TIP: Netlify has wonderful (and documented) support for automatic SSL via [LetsEncrypt](https://docs.netlify.com/domains-https/https-ssl) and
 > [custom domains](https://docs.netlify.com/domains-https/custom-domains).
+
+## Summary
+
+By leveraging Jekyll, GitHub, and Netlify, you can reap all the benefits of code
+based configuration, have automatic SSL, and a beautiful website with tons of
+plugins available. I hope you've found this guide useful. As always, if there
+are any issues, please reach out to me directly and I'll get to them ASAP.
+
+Now get out there and build that beautiful website!
