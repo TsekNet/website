@@ -18,13 +18,15 @@ Windows Systems Administrator with an unhealthy addiction to automation and SRE
 practices.
 
 With over 5 years experience in IT, my primary areas of focus are
-PowerShell, Python, automation, Continuous Integration/Continuous Delivery, Infrastructure as
-Code, Windows imaging, Configuration Management, and championing SRE practices.
+PowerShell, Python, automation, continuous integration/continuous delivery,
+infrastructure as code, imaging/provisioning, configuration management,
+and championing SRE practices.
 
-I help maintain the open-source Windows Imaging tool developed at Google
+At Google, I help maintain our open-source Windows imaging tool
 ([Glazier](https://github.com/google/glazier)).
 
-My aim is to work on open-source projects long term both professionally and personally.
+I ❤️ open-source. My aim is to work entirely on open-source projects both
+professionally and personally.
 
 ## Travel
 
