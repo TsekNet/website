@@ -12,7 +12,10 @@ author1:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: >
     Windows Systems Administrator with an unhealthy addiction to automation and SRE practices.
-    With over 5 years experience in IT, Dan's primary areas of focus are PowerShell, Python, automation, Continuous Integration/Continuous Delivery, Infrastructure as Code, Windows Imaging, Configuration Management, and championing SRE practices.
+    With over five years experience in IT, my primary areas of focus are
+    PowerShell, Python, automation, continuous integration/continuous delivery,
+    infrastructure as code, imaging/provisioning, configuration management,
+    and championing SRE practices.
 
   # This photo will be used in the about section
   picture:

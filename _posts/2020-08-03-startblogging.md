@@ -6,9 +6,10 @@ description: >
   How this website was made (and my first ever blog post!).
 hide_description: true
 sitemap: true
+tags: [dev, github, tutorial]
 ---
 
-Let's get building!
+Let's build a website!
 {:.figcaption}
 
 - Table of Contents
@@ -182,7 +183,7 @@ Netlify has wonderful (and documented) support for automatic SSL via [LetsEncryp
 [custom domains](https://docs.netlify.com/domains-https/custom-domains).
 {:.note title="TIP"}
 
-## Summary
+## Conclusions
 
 By leveraging Jekyll, GitHub, and Netlify, you can reap all the benefits of code
 based configuration, have automatic SSL, and a beautiful website with tons of

@@ -75,7 +75,7 @@ colon: ":"
 separator: "|"
 category_start: "in "
 category_spearator: " / "
-tag_start: "on "
+tag_start: "about "
 tag_separator: ", "
 from_to_separator: "–"
 
