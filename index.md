@@ -1,5 +1,5 @@
 ---
-layout: welcome
+layout: home
 title: 👋
 sitemap: false
 cover: true

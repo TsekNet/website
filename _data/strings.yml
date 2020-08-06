@@ -70,7 +70,7 @@ error:
 
 # Separators
 # ---------------------------------------------------------------------------------------
-posted: "Posted"
+posted: "Last modified"
 colon: ":"
 separator: "|"
 category_start: "in "

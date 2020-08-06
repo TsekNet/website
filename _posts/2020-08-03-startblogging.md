@@ -15,15 +15,17 @@ Let's build a website!
 
 ## Why
 
+Last Modified: {{ page.last_modified_at | date: '%Y-%M-%d' }}
+
 Once completed, your new website will have the following benefits:
 {:.faded}
 
 1. Full history of your changes to any part of the site.
-1. Writing blog posts is just adding a markdown file.
-1. Free, automatic SSL
-1. Custom domain support
-1. Quick Deployments, including CI/CD
-1. ...and much more!
+2. Writing blog posts is just adding a markdown file.
+3. Free, automatic SSL
+4. Custom domain support
+5. Quick Deployments, including CI/CD
+6. ...and much more!
 
 ## Requirements
 
