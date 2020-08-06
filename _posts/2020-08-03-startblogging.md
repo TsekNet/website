@@ -3,10 +3,8 @@ layout: post
 title: Start blogging with Jekyll, GitHub, and Netlify
 image: /assets/img/blog/router.jpg
 description: >
-  How this website was made (and my first ever blog post!).
-hide_description: true
-sitemap: true
-tags: [dev, github, tutorial]
+  How this website was made (and my first ever public blog post!).
+tags: [dev, open-source, tutorial]
 ---
 
 Let's build a website!
@@ -14,8 +12,6 @@ Let's build a website!
 
 - Table of Contents
 {:toc}
-
-> Hello, world! This is my first ever (public) blog post!
 
 ## Why
 
@@ -90,6 +86,9 @@ theme.
 
 For this website, I chose the [Hydejack](https://hydejack.com) Pro theme. This
 is a paid theme, and includes all the files required to start a website.
+
+If you wants to use free version, clone or download the
+[Hydejack-starter-kit](https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages).
 
 This theme required heavy modifications to configuration files
 prior to launching my website.

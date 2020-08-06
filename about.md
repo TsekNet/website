@@ -17,7 +17,7 @@ Learning is my biggest motivator.
 Windows Systems Administrator with an unhealthy addiction to automation and SRE
 practices.
 
-With over 5 years experience in IT, my primary areas of focus are
+With over five years experience in IT, my primary areas of focus are
 PowerShell, Python, automation, continuous integration/continuous delivery,
 infrastructure as code, imaging/provisioning, configuration management,
 and championing SRE practices.
@@ -45,6 +45,15 @@ Want to get in touch? Find an error in an article?
 
 I can be reached via any of the channels listed in the sidebar of this site in
 addition to responding to any comments left on this site.
+
+## Puppy 🐶
+
+Here's my puppy Eevee and her namesake; Feel free to reach out for more pictures
+:)
+
+![Eevee](assets/img/common/eevee.jpg){:height="250px" width="250px"}
+![EeveePokemon](assets/img/common/eeveepokemon.png){:height="250px" width="250px"}
+
 
 ## Disclaimer
 

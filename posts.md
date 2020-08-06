@@ -2,6 +2,6 @@
 layout: grid
 title: Posts
 description: >
-  This is the `grid` layout for showing blog posts. See `Blog` in the sidebar for an expanded list of posts.
+  List of recent blog posts, grouped by year.
 grouped: true
 ---

@@ -10,8 +10,6 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", github: "jekyll/jekyll"
 
-gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
-
 # IMPORTANT: The followign gem is used to compile math formulas to
 # KaTeX during site building.
 #
@@ -38,10 +36,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache", github: "hydecorp/jekyll-include-cache"
-
-  # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
-  gem "jekyll-compose"
 end
 
 gem 'wdm' if Gem.win_platform?
