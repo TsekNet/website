@@ -43,6 +43,7 @@
 
   {% if no_excerpt %}
     {{ post.content }}
+    {% include share-buttons.html %}
   {% else %}
     {{ post.excerpt }}
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Start blogging with Jekyll, GitHub, and Netlify
+title: Get started with Jekyll, GitHub, and Netlify
 image: /assets/img/blog/router.jpg
 description: >
   How this website was made (and my first ever public blog post!).
@@ -14,8 +14,6 @@ Let's build a website!
 {:toc}
 
 ## Why
-
-Last Modified: {{ page.last_modified_at | date: '%Y-%M-%d' }}
 
 Once completed, your new website will have the following benefits:
 {:.faded}
@@ -184,7 +182,7 @@ Netlify has wonderful (and documented) support for automatic SSL via [LetsEncryp
 [custom domains](https://docs.netlify.com/domains-https/custom-domains).
 {:.note title="TIP"}
 
-## Conclusions
+## Conclusion
 
 By leveraging Jekyll, GitHub, and Netlify, you can reap all the benefits of code
 based configuration, have automatic SSL, and a beautiful website with tons of
