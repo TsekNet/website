@@ -10,7 +10,7 @@ baseurl: ''
 ########################################################################################################################
 
 lang: en
-title: Dan Tsekhanskiy
+title: TsekNet
 description: SRE and automation from a Windows guy
 # A shorter description for the sidebar.
 tagline: SRE from a Windows guy
@@ -102,7 +102,7 @@ kramdown:
 
 collections:
   featured_tags:
-    permalink: /tag/:name/
+    permalink: /tag/:name
     output: true
 
 ########################################################################################################################
