@@ -13,21 +13,22 @@ Let's build a website!
 - Table of Contents
 {:toc}
 
-## Why
+## Project Overview
 
 Once completed, your new website will have the following benefits:
 {:.faded}
 
 1. Full history of your changes to any part of the site.
-2. Writing blog posts is just adding a markdown file.
-3. Free, automatic SSL
-4. Custom domain support
-5. Quick Deployments, including CI/CD
-6. ...and much more!
+1. Writing blog posts is just adding a markdown file.
+1. Free, automatic SSL
+1. Custom domain support
+1. Quick Deployments, including CI/CD
+1. ...and much more!
 
-## Requirements
+## Prerequisites
 
-The following are recommended before continuing:
+You’re going to learn a lot but you’re also expected to come to the table with
+a few things. If you plan to follow along, be sure you have the following:
 {:.faded}
 
 1. [Chocolately](https://chocolatey.org/install)
@@ -42,8 +43,8 @@ The puzzle pieces:
 {:.faded}
 
 1. [Jekyll](https://jekyllrb.com): Transforms plain text into static websites.
-2. [GitHub](https://github.com): Where the static files used by Jekyll are hosted.
-3. [Netlify](https://netlify.com): Detects changes pushed to GitHub, deploys a
+1. [GitHub](https://github.com): Where the static files used by Jekyll are hosted.
+1. [Netlify](https://netlify.com): Detects changes pushed to GitHub, deploys a
    website, and handles HTTPS.
 
 ## Background
@@ -63,74 +64,81 @@ Let's dive right in with how *you* can copy my homework.
 
 ### Installation
 
-Prior to going through these instructions, you may want to locate a
-Jekyll theme that you prefer over the default. Otherwise, you may need to
-start over with your preferred theme. See [below](#my-jekyll-theme) for my
-theme.
+Prior to going through these instructions, you may want to locate your preferred
+Jekyll theme. Otherwise, you may need to start over with your preferred theme.
+See [below](#my-jekyll-theme) for this website's theme.
 {:.note title="IMPORTANT"}
 
+You'll first need to install some prerequisites:
+
 1. Install [Chocolately](https://chocolatey.org/install), a (great) software management solution.
-2. Install ruby: `choco install ruby`
-3. Close/Reopen your preferred terminal as admin or refresh your environment.
-4. Install bundler: `gem install bundler`
-5. Install Jekyll:
+1. Install ruby: `choco install ruby`
+1. Close and re-open your preferred terminal (as admin) or
+refresh your environment before continuing.
+
+Next up, you'll need to install Jekyll and it's prerequisites:
+
+1. Install bundler: `gem install bundler`
+1. Install Jekyll:
    - Install mysys2: `choco install msys2 `
    - Install the Ruby Installer Development Kit: `ridk install 3`
    - `gem install jekyll`
-6. Navigate to the root folder for your blog, for example: `cd C:\Projects`
-7. Configure your blog: `jekyll new myblog; cd myblog; bundle install`
-8. Start your blog: `jekyll serve`
-9. Browse to <http://localhost:4000>. Congrats, \<you're the blogger now\>.gif 🎉
 
-#### My Jekyll Theme
+Finally, let's get your blog up and running:
 
-For this website, I chose the [Hydejack](https://hydejack.com) Pro theme. This
-is a paid theme, and includes all the files required to start a website.
+1. Navigate to the root folder for your blog, for example: `cd C:\Projects`
+1. Configure your blog: `jekyll new myblog; cd myblog; bundle install`
+1. Start your blog: `jekyll serve`
+1. Browse to <http://localhost:4000>. Congrats, \<you're the blogger now\>.gif 🎉
+
+### My Jekyll Theme
+
+Personally, I'm a huge fan of the [Hydejack](https://hydejack.com) Pro theme,
+that this website leverages. It comes with all the files required to get your
+blog up and running. The main benefit I've found for the Pro theme is included
+dark mode support.
 
 If you wants to use free version, clone or download the
-[Hydejack-starter-kit](https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages).
-
-This theme required heavy modifications to configuration files
-prior to launching my website.
-{:.note title="WARNING"}
+[Hydejack starter kit](https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages).
 
 ### Customization and Iteration
 
-This is where you'll live for a while, and this is really *never* done. You'll
-want to add your own spark to your website Look into popular Jekyll plugins as a
+This is where you'll spend most of your time, and this is really *never* done. You'll
+want to add your own spark to your website. Look into popular Jekyll plugins as a
 start!
 
 At the very least, you'll want to modify the `_config.yml`, `Gemfile`, and any
-included markdown files (e.g. `about.markdown` and `index.markdown`) to include
+included markdown files (e.g. `about.markdown` and `index.markdown`) to reference
 your information, rather than the defaults. I'd recommend spending some time and
-looking through your sites basic configuration.
+looking through your sites basic configuration(s).
 
-The basic workflow is as follows:
+To make changes to this website, here's the flow that I usually follow:
 
+1. Navigate to your site: http://localhost:4000
 1. Make a change to a file such as `_config.yml`
-2. Navigate to your site: http://localhost:4000
-3. Did anything break? Did the updates take effect?
-4. ???
-5. Repeat
+1. Did anything break? Did the updates take effect?
+1. ???
+1. Repeat
 
 ## GitHub
 
-Step one of three done already—onwards!
+Step one of three done already—onwards to making your website open source!
 
 ### Setup Your Repository
 
-GitHub is where your files my website lives. Everything you are seeing on the
-website is hosted on my [GitHub Repo](https://github.com/tseknet/website). To
-create a repo for your website:
+Everything you are seeing on the
+website is actually hosted on my [GitHub
+Repo](https://github.com/tseknet/website). Here's how you can do the same:
 
-1. Navigate to GitHub.com, create an account if necessary.
+1. Navigate to [GitHub](https://github.com), creating an account if necessary.
 1. Navigate to https://github.com/new:
-   - Enter a repository name
-   - Optional Description
+   - Enter your desired repository name (ex: myblog) and an optional description.
    - Initialize with a README
    - I normally select an `MIT License`, but that's up to you.
 1. Click `Create Repository`
-1. Clone your newly created repo via VSCode. See this [post](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33) for more info.
+1. Clone your newly created repo via VSCode. See this
+   [post](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33)
+   for how that works.
 
 I manage my repo in VSCode, but this
 will work via the [command
@@ -160,22 +168,23 @@ To upload your website to GitHub:
 
 1. Copy the entire *contents* of your website into the new folder containing
    your repository.
-1. Commit your changes, then Push your code to GitHub. Again, see this [post](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33) for more info.
+1. Commit your changes, then Push your code to GitHub. Again, see this [post](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33) for how that works.
 1. Navigate back to your GitHub repository to confirm the files were uploaded successfully.
 
 ## Netlify CMS
 
-Final stretch—almost done!
+Final stretch—now let's automate your website!
 
 Netlify, at a basic level, runs the `jekyll build` command for you against your
-GitHub repo. The following steps will get you started, taken directly from the
+GitHub repo, just like you would run locally. The following steps will get you started, taken directly from the
 official [Netlify Jekyll
-guide](https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-4.0-on-netlify/):
+guide](https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-1.0-on-netlify/):
 
+1. Navigate to [Netlify](https://netlify.com), creating an account if necessary.
 1. Add your new site by clicking `New site from Git`
-2. Link to your GitHub by following the prompts to connect, pick a repo, and build.
+1. Link to your GitHub by following the prompts to connect, pick a repo, and build.
    - Build options can be left as the default for Jekyll.
-3. Build your site. You should now see `Deploy in progress`, and after a minute
+1. Build your site. You should now see `Deploy in progress`, and after a minute
    or so, your new website (with a custom URL) should be live!
 
 Netlify has wonderful (and documented) support for automatic SSL via [LetsEncrypt](https://docs.netlify.com/domains-https/https-ssl) and
@@ -185,11 +194,13 @@ Netlify has wonderful (and documented) support for automatic SSL via [LetsEncryp
 ## Conclusion
 
 By leveraging Jekyll, GitHub, and Netlify, you can reap all the benefits of code
-based configuration, have automatic SSL, and a beautiful website with tons of
-plugins available. I hope you've found this guide useful. As always, if there
-are any issues, please reach out to me directly and I'll get to them ASAP.
+based configuration, have automatic SSL, and have a beautiful website with tons of
+plugins available.
 
-Now get out there and build that beautiful website!
+I hope you've found this guide useful. As always, if there
+are any questions/concerns, please reach out to me directly and I'll get to them ASAP.
+
+Now get out there and build that beautiful website 🏗️
 
 ## Related Links
 
