@@ -15,13 +15,13 @@
     <div class="post-date">
       {% unless site.hydejack.hide_dates %}
         {% assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" %}
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:post_format }}</time>
+        Posted: <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:post_format }}</time>
       {% else %}
         {{ site.data.strings.posted | default:"Posted" }}
       {% endunless %}
       {% assign category_start     = site.data.strings.category_start     | default:"in " %}
       {% assign tag_start          = site.data.strings.tag_start          | default:"on " %}
-      {{ page.last_modified_at | date: '%Y-%m-%d' }}
+       ∙ Edited: {{ page.last_modified_at | date: '%Y-%m-%d' }}
       {% assign category_separator = site.data.strings.category_separator | default:" / " %}
       {% assign tag_separator      = site.data.strings.tag_separator      | default:", "  %}
       {% include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator %}

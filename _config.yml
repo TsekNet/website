@@ -190,7 +190,7 @@ hydejack:
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date.
-  hide_dates: true
+  hide_dates: false
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:

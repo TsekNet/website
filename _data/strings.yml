@@ -70,20 +70,20 @@ error:
 
 # Separators
 # ---------------------------------------------------------------------------------------
-posted: "Last modified"
+posted: "Posted"
 colon: ":"
-separator: "|"
+separator: "∙"
 category_start: "in "
-category_spearator: " / "
-tag_start: "about "
+category_spearator: ", "
+tag_start: "∙ Tags: "
 tag_separator: ", "
 from_to_separator: "–"
 
 # Date formats
 # ---------------------------------------------------------------------------------------
 date_formats:
-  post: "%d %b %Y"
-  related_post: "%d %b %Y"
+  post: "%Y-%m-%d"
+  related_post: "%Y-%m-%d"
   list_group_by: "%Y"
   list_entry: "%d %b"
   project: "%Y"
