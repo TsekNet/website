@@ -15,7 +15,8 @@
     <div class="post-date">
       {% unless site.hydejack.hide_dates %}
         {% assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" %}
-        Posted: <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:post_format }}</time>
+        {% assign post_date        = post.date | date:post_format %}
+        Posted: <time datetime="{{ post.date | date_to_xmlschema }}">{{ post_date }}</time>
       {% else %}
         {{ site.data.strings.posted | default:"Posted" }}
       {% endunless %}
@@ -23,9 +24,8 @@
       {% assign tag_start          = site.data.strings.tag_start          | default:"on " %}
 
       {% comment %} Custom code to add link and last modified date {% endcomment %}
-      {% assign page_date = page.date | date:post_format %}
-      {% assign last_update = page.last_modified_at | date:post_format %}
-      {% if page_update != last_update %}
+      {% assign last_update = site.time | date:post_format %}
+      {% if post_date != last_update %}
         {% unless page.path == 'blog/index.md' %}
         ∙ <a href="https://github.com/TsekNet/website/commits/master/{{ page.path }}">Edited</a>: {{ last_update }}
         {% else %}

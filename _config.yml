@@ -244,7 +244,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jekyll-include-cache
-  - jekyll-last-modified-at
 
 ########################################################################################################################
 # SEO                                                                                                                  #
