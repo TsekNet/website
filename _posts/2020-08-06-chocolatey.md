@@ -76,6 +76,8 @@ any software that you're interested in. Visit [chocolatey.org/packages](https://
 for a complete list of available packages.
 {:.note title="IMPORTANT"}
 
+Run the following command in PowerShell as administrator:
+
 ```powershell
 # Install Packages and create scheduled a task to weekly update chocolatey at 1AM.
 choco install 7zip git googlechrome greenshot keepass microsoft-windows-terminal mpc-hc notepadplusplus
@@ -89,8 +91,7 @@ Here's some additional packages that I install on my personal (non-work) systems
 
 ```powershell
 # Personal PC Packages
-choco install discord f.lux github-desktop qbittorrent skype wd-backup logitechgaming nvidia-display-driver
-disablewintracking cpu-z
+choco install discord f.lux wd-backup logitechgaming nvidia-display-driver disablewintracking cpu-z
 ```
 
 ## Conclusion
