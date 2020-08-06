@@ -13,7 +13,7 @@ Let's build a website!
 - Table of Contents
 {:toc}
 
-## Project Overview
+## Objective
 
 Once completed, your new website will have the following benefits:
 {:.faded}
