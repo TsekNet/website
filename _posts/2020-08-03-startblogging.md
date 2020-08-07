@@ -64,11 +64,6 @@ Let's dive right in with how *you* can copy my homework.
 
 ### Installation
 
-Prior to going through these instructions, you may want to locate your preferred
-Jekyll theme. Otherwise, you may need to start over with your preferred theme.
-See [below](#my-jekyll-theme) for this website's theme.
-{:.note title="IMPORTANT"}
-
 You'll first need to install some prerequisites:
 
 1. Install [Chocolately](https://chocolatey.org/install), a (great) software management solution.
@@ -82,7 +77,14 @@ Next up, you'll need to install Jekyll and it's prerequisites:
 1. Install Jekyll:
    - Install mysys2: `choco install msys2 `
    - Install the Ruby Installer Development Kit: `ridk install 3`
-   - `gem install jekyll`
+   - `gem install jekyll` or your preferred theme*
+
+I would pause here if you're interested in a custom theme, and leverage the
+default installation/configuration of the selected theme instead of the Jekyll
+default.
+
+See [below](#my-theme) for this website's theme.
+{:.note title="IMPORTANT"}
 
 Finally, let's get your blog up and running:
 
@@ -91,15 +93,16 @@ Finally, let's get your blog up and running:
 1. Start your blog: `jekyll serve`
 1. Browse to <http://localhost:4000>. Congrats, \<you're the blogger now\>.gif 🎉
 
-### My Jekyll Theme
+### My Theme
 
-Personally, I'm a huge fan of the [Hydejack](https://hydejack.com) Pro theme,
-that this website leverages. It comes with all the files required to get your
-blog up and running. The main benefit I've found for the Pro theme is included
-dark mode support.
+This website leverages the Hydejack pro theme. The
+[Hydejack documentation](https://hydejack.com/docs) is a good place to get
+started if you're interested. The main benefit I've found for the pro version of
+this theme is included dark mode support.
 
-If you wants to use free version, clone or download the
-[Hydejack starter kit](https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages).
+If you wants to use free version, clone or download the [Hydejack starter
+kit](https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages). You'll
+find all the files required to get your blog up and running included.
 
 ### Customization and Iteration
 
@@ -206,3 +209,5 @@ Now get out there and build that beautiful website 🏗️
 
 - [Hosting Your Website With Github and Netlify](https://www.youtube.com/watch?v=hBQlCtfRmqs)
 - [Setup Custom Domain On Netlify](https://www.youtube.com/watch?v=Q9giWrfIJKk)
+- [How I customized Hydejack Theme](https://lazyren.github.io/devlog/how-i-customized-hydejack-theme.html#conclusion)
+- [Hydejack Showcase](https://hydejack.com/showcase/)
