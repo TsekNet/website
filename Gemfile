@@ -34,6 +34,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache", github: "hydecorp/jekyll-include-cache"
+  gem "jekyll-last-modified-at"
 end
 
 gem 'wdm' if Gem.win_platform?
