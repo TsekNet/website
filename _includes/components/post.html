@@ -27,11 +27,9 @@
       {% comment %} Custom code to add link and last modified date {% endcomment %}
       {% assign last_update = page.last_modified_at | date:post_format %}
       {% if post_date != last_update %}
-        {% unless page.path == 'blog/index.md' %}
+        {% if page.path != 'blog/index.md' %}
         ∙ <a href="https://github.com/TsekNet/website/commits/master/{{ page.path }}">Edited</a>: {{ last_update }}
-        {% else %}
-          ∙ Edited: {{ last_update }}
-        {% endunless %}
+        {% endif %}
       {% endif %}
 
       {% assign category_separator = site.data.strings.category_separator | default:" / " %}
