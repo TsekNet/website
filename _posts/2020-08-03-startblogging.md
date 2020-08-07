@@ -5,6 +5,7 @@ image: /assets/img/blog/router.jpg
 description: >
   How this website was made (and my first ever public blog post!).
 tags: [dev, open-source, tutorial]
+comments_id: 1
 ---
 
 Let's build a website!
