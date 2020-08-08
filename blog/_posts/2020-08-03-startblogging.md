@@ -81,9 +81,7 @@ Next up, you'll need to install Jekyll and it's prerequisites:
 
 I would pause here if you're interested in a custom theme, and leverage the
 default installation/configuration of the selected theme instead of the Jekyll
-default.
-
-See [below](#my-theme) for this website's theme.
+default. See [below](#my-theme) for this website's theme.
 {:.note title="IMPORTANT"}
 
 Finally, let's get your blog up and running:
