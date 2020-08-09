@@ -16,6 +16,6 @@ end
 def generate_tag_file(tag)
   # generate tag file
   File.open("_featured_tags/#{tag}.md", "wb") do |file|
-    file << "---\nlayout: tag-list\ntitle: #{tag.capitalize}\nmenu: false\ndescription: >\n  Posts related #{tag}\n---"
+    file << "---\nlayout: tag-list\ntitle: #{tag.capitalize}\nmenu: false\ndescription: >\n  Posts about #{tag}\n---"
   end
 end

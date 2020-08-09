@@ -1,7 +1,7 @@
 ---
 layout: tag-list
-title: Tutorial
+title: Tutorials
 menu: false
 description: >
-  Posts related tutorial
+  Posts about tutorials
 ---

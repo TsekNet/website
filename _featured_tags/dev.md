@@ -3,5 +3,5 @@ layout: tag-list
 title: Dev
 menu: false
 description: >
-  Posts related dev
+  Posts about dev
 ---
