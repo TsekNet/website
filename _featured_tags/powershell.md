@@ -1,7 +1,7 @@
 ---
 layout: tag-list
-title: PowerShell
+title: Powershell
 menu: false
 description: >
-   Posts related to PowerShell.
+  Posts related powershell
 ---

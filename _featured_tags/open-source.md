@@ -1,7 +1,7 @@
 ---
 layout: tag-list
-title: Open Source
+title: Open-source
 menu: false
 description: >
-   Posts related to open source.
+  Posts related open-source
 ---
