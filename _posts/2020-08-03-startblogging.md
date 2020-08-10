@@ -209,3 +209,5 @@ Now get out there and build that beautiful website 🏗️
 - [Setup Custom Domain On Netlify](https://www.youtube.com/watch?v=Q9giWrfIJKk)
 - [How I customized Hydejack Theme](https://lazyren.github.io/devlog/how-i-customized-hydejack-theme.html#conclusion)
 - [Hydejack Showcase](https://hydejack.com/showcase/)
+- [Jekyll Style Guide](https://ben.balter.com/jekyll-style-guide/)
+- [Jekyll Cheat Sheet](https://devhints.io/jekyll)
