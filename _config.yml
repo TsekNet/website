@@ -128,7 +128,7 @@ collections:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons: [about, newsletter, related, random]
+  post_addons: [about, newsletter, related, random, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
   no_mark_external: true
