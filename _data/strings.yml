@@ -44,8 +44,8 @@ continue_reading: >
 
 cookies_banner:
   text: >
-    This site uses cookies. [Cookies Policy](/cookies-policy/).
-  okay: Okay
+    This site uses cookies.
+  okay: Got it!
 
 not_found:
   title: "404: Page Not Found"
