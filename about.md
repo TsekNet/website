@@ -17,7 +17,7 @@ Learning is my biggest motivator.
 Windows Systems Administrator with an unhealthy addiction to automation and SRE
 practices.
 
-With over five years experience in IT, my primary areas of focus are
+With over five years of experience in IT, my primary areas of focus are
 PowerShell, Python, automation, continuous integration/continuous delivery,
 infrastructure as code, imaging/provisioning, configuration management,
 and championing SRE practices.
@@ -25,7 +25,7 @@ and championing SRE practices.
 At Google, I help maintain our open-source Windows imaging tool
 ([Glazier](https://github.com/google/glazier)).
 
-I ❤️ open-source. My aim is to work entirely on open-source projects both
+I ❤️ open-source. I aim to work entirely on open-source projects both
 professionally and personally.
 
 ## Travel
@@ -53,7 +53,6 @@ Here's my puppy Eevee and her namesake; Feel free to reach out for more pictures
 
 ![Eevee](assets/img/common/eevee.jpg){:height="250px" width="250px"}
 ![EeveePokemon](assets/img/common/eeveepokemon.png){:height="250px" width="250px"}
-
 
 ## Disclaimer
 
