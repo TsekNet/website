@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Chocolately Setup
-image: /assets/img/blog/chocolatey.png
+image: /assets/img/blog/chocolatey.jpg
 description: >
   How I automated my computer setup.
 tags: [dev, automation, windows, powershell]
