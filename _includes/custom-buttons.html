@@ -1,0 +1,25 @@
+﻿{% if include.pageurl != nil and include.pageurl != '' %}
+    {% assign pageurl = include.pageurl %}
+{% else %}
+    {% assign pageurl = page.url %}
+{% endif %}
+
+<br>
+<div align="center">
+This page is open source. Please help improve it.&nbsp;
+<button class="btn btn-sm btn-primary" onclick=" window.open('https://github.com/TsekNet/website/edit/master/{{ page.relative_path }}','_blank')" value="Edit on GitHub">
+  <small class="icon-github"></small> Edit on Github
+</button>
+<br>
+<br>
+Liked this post? Share on:
+&nbsp;<button class="btn btn-sm btn-primary" onclick=" window.open('https://twitter.com/intent/tweet?url={{ site.data.strings.website_url }}{{ page.url }}&text=Check out this blog post: {{ page.title }} from&hashtags={{ site.data.strings.website_name }}&via={{ site.data.strings.website_name }}&related={{ site.data.strings.website_name }}','_blank')" value="Tweet">
+  <small class="icon-twitter"></small> Twitter
+</button>
+&nbsp;<button class="btn btn-sm btn-primary" onclick=" window.open('http://www.reddit.com/submit?url={{ site.data.strings.website_url }}{{ page.url }}&title={{ page.title }}','_blank')" value="Post to Reddit">
+  <small class="icon-reddit"></small> Reddit
+</button>
+&nbsp;<button class="btn btn-sm btn-primary" onclick=" window.open('https://www.linkedin.com/sharing/share-offsite/?url={{ site.data.strings.website_url }}{{ page.url }}','_blank')" value="Share on LinkedIn">
+  <small class="icon-linkedin2"></small> LinkedIn
+</button>
+</div>
