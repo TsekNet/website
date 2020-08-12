@@ -37,7 +37,7 @@ may be based in reality).
 You’re going to learn a lot but you’re also expected to come to the table with
 a few things. If you plan to follow along, be be sure you have the following:
 
-1. Windows 10 - This has been tested on 1809 and above
+1. Windows 10 - 1903 or above is required for Windows Terminal
 1. Windows PowerShell 5.1 or newer, run as administrator
 1. [Chocolately](https://chocolatey.org/install)
 
