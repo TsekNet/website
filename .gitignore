@@ -2,3 +2,4 @@
 .jekyll-cache
 assets/img/blog/.jekyll-cache
 Gemfile.lock
+.vscode/settings.json
