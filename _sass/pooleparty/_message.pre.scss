@@ -64,7 +64,6 @@
   border: 1px solid transparent;
   border-radius: 4px;
   border-top-color: #c9e2b3;
-  color: #2b542c;
   &:before{
     content: "✔ TIP: ";
     font-weight: bold;
@@ -80,7 +79,6 @@
   background-color: #d9edf7;
   border-color: #bce8f1;
   border-top-color: #a6e1ec;
-  color: #245269;
   padding: 15px;
   margin-bottom: 20px;
   border: 1px solid transparent;
@@ -100,12 +98,10 @@
   background-color: #fcf8e3;
   border-color: #faebcc;
   border-top-color: #f7e1b5;
-  color: #66512c;
   padding: 15px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 4px;
-  color: #2b542c;
   &:before{
     content: "⚠️ IMPORTANT: ";
     font-weight: bold;
@@ -121,12 +117,10 @@
   background-color: #f2dede;
   border-color: #ebccd1;
   border-top-color: #e4b9c0;
-  color: #843534;
   padding: 15px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 4px;
-  color: #2b542c;
   &:before{
     content: "🚨 WARNING: ";
     font-weight: bold;
@@ -136,4 +130,24 @@
 .warning a {
   color: #000000
 }
+
+.tldr {
+  color: #ffffff;
+  background-color: #2f60ad;
+  border-color: #ebccd1;
+  border-top-color: #e4b9c0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  &:before{
+    content: "💬 TL;DR: ";
+    font-weight: bold;
+  }
+}
+
+.tldr a {
+  color: #ffffff
+}
+
 // >>>
