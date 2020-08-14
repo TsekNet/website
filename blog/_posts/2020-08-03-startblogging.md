@@ -82,7 +82,7 @@ Next up, you'll need to install Jekyll and it's prerequisites:
 I would pause here if you're interested in a custom theme, and leverage the
 default installation/configuration of the selected theme instead of the Jekyll
 default. See [below](#my-theme) for this website's theme.
-{:.note title="IMPORTANT"}
+{:.note}
 
 Finally, let's get your blog up and running:
 
@@ -141,11 +141,10 @@ Repo](https://github.com/tseknet/website). Here's how you can do the same:
    [post](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33)
    for how that works.
 
-I manage my repo in VSCode, but this
-will work via the [command
+I manage my repo in VSCode, but this will work via the [command
 line](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 as well.
-{:.note title="tip"}
+{:.tip}
 
 ### GitHub Files
 
@@ -189,7 +188,7 @@ guide](https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-1.0-o
 
 Netlify has wonderful (and documented) support for automatic SSL via [LetsEncrypt](https://docs.netlify.com/domains-https/https-ssl) and
 [custom domains](https://docs.netlify.com/domains-https/custom-domains).
-{:.note title="TIP"}
+{:.tip}
 
 ## Conclusion
 

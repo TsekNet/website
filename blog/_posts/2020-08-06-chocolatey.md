@@ -74,7 +74,7 @@ choco feature enable -n allowGlobalConfirmation -y
 The packages listed below are my personal preferences. You'll want to add/remove
 any software that you're interested in. Visit [chocolatey.org/packages](https://chocolatey.org/packages)
 for a complete list of available packages.
-{:.note title="IMPORTANT"}
+{:.important}
 
 Run the following command in PowerShell as administrator:
 

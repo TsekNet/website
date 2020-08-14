@@ -50,8 +50,90 @@
   }
 }
 
-.note {
+.note_default{
   @extend .note-sm;
   font-size: 1rem;
+}
+
+.tip {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  border-top-color: #c9e2b3;
+  color: #2b542c;
+  &:before{
+    content: "✔ TIP: ";
+    font-weight: bold;
+  }
+}
+
+.tip a {
+  color: #000000
+}
+
+.note {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  border-top-color: #a6e1ec;
+  color: #245269;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  &:before{
+    content: "📝 NOTE: ";
+    font-weight: bold;
+  }
+}
+
+.note a {
+  color: #000000
+}
+
+.important {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  border-top-color: #f7e1b5;
+  color: #66512c;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #2b542c;
+  &:before{
+    content: "⚠️ IMPORTANT: ";
+    font-weight: bold;
+  }
+}
+
+.important a  {
+  color: #000000
+}
+
+.warning{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  border-top-color: #e4b9c0;
+  color: #843534;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #2b542c;
+  &:before{
+    content: "🚨 WARNING: ";
+    font-weight: bold;
+  }
+}
+
+.warning a {
+  color: #000000
 }
 // >>>
