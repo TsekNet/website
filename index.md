@@ -12,7 +12,7 @@ Learning is my biggest motivator.
 
 I created this personal website as a means to self-document interesting problems
 I've solved, and share those solutions with the world, in the hopes that they
-will help other's running into similar issues.
+will help others running into similar issues.
 
 ## Latest Posts
 
