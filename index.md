@@ -1,7 +1,7 @@
 ---
 layout: home
 title: 👋
-sitemap: false
+sitemap: true
 cover: true
 ---
 

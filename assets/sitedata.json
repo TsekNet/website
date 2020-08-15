@@ -1,5 +1,5 @@
 ---
-sitemap: true
+sitemap: false
 ---
 {% unless site.hydejack.no_search or jekyll.environment == 'development' %}
 {% assign pages = site.html_pages | where_exp:"page","page.sitemap != false" %}
