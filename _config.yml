@@ -2,7 +2,7 @@
 # Site Settings                                                                                                        #
 ########################################################################################################################
 
-url:
+url: "https://tseknet.com"
 baseurl: ''
 
 ########################################################################################################################
@@ -251,7 +251,7 @@ plugins:
 ########################################################################################################################
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
+google_site_verification: UA-175070505-1
 # -- or --
 # webmaster_verifications:
 # google:  <verification-id>
@@ -260,8 +260,8 @@ plugins:
 # yandex:  <verification-id>
 
 # Used for twitter cards
-# twitter:
-# username:  <username>
+twitter:
+  username:  tseknet
 
 # Used for facebook open graph
 # facebook:
@@ -270,8 +270,9 @@ plugins:
 # admins:  <id>
 
 # Used on index and about sites
-# social:
-# name: <firstname> <lastname>
-# links:
-# - https://twitter.com/<username>
-# - https://github.com/<username>
+social:
+  name: Dan Tsekhanskiy
+links:
+- https://twitter.com/TsekNet
+- https://github.com/TsekNet
+- https://www.linkedin.com/in/dantsek
