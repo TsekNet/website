@@ -35,9 +35,10 @@ may be based in reality).
 ## Prerequisites
 
 You’re going to learn a lot but you’re also expected to come to the table with
-a few things. If you plan to follow along, be be sure you have the following:
+a few things. If you plan to follow along, be sure you have the following:
 
-1. Windows 10 - 1903 or above is required for Windows Terminal
+1. Windows 10 - 1903 or above is required (for Windows Terminal)
+   - Type `winver` in any terminal to check your current Windows version.
 1. Windows PowerShell 5.1 or newer, run as administrator
 1. [Chocolately](https://chocolatey.org/install)
 
@@ -50,7 +51,7 @@ automation tools such as [ninite](https://ninite.com),
 etc.
 
 These tools all worked great, and some of them are still the preferred solutions
-for companies I've worked at. What chocolately provides is a simple, code based
+for companies I've worked at. What Chocolately provides is a simple, code-based
 solution that allows me to manage software on my personal and work systems in a
 similar fashion.
 
