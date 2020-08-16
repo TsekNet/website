@@ -3,7 +3,6 @@ layout: about
 title: >
   > whoami
 image: /assets/img/logo.png
-hide_description: true
 ---
 
 - Table of Contents
@@ -14,7 +13,7 @@ hide_description: true
 Learning is my biggest motivator.
 {:.faded}
 
-Windows Systems Administrator with an unhealthy addiction to automation and SRE
+Windows Systems Administrator with an unhealthy addiction to automation and [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 practices.
 
 With over five years of experience in IT, my primary areas of focus are
