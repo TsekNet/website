@@ -17,25 +17,33 @@
       {% unless site.hydejack.hide_dates %}
         {% assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" %}
         {% assign post_date = post.date | date:post_format %}
-        Posted: <time datetime="{{ post.date | date_to_xmlschema }}">{{ post_date }}</time>
-      {% else %}
-        {{ site.data.strings.posted | default:"Posted" }}
+
+        {% comment %} Custom code to add link and last modified date {% endcomment %}
+        {% assign last_update = post.last_modified_at | date:post_format %}
+
+        {% if post_date != last_update %}
+          <a href="https://github.com/TsekNet/website/commits/master/{{ post.path }}" target="_blank">Updated</a>: {{ last_update }}
+        {% else %}
+          Posted: <time datetime="{{ post.date | date_to_xmlschema }}">{{ post_date }}</time>
+        {% endif %}
       {% endunless %}
       {% assign category_start     = site.data.strings.category_start     | default:"in " %}
       {% assign tag_start          = site.data.strings.tag_start          | default:"on " %}
-
-      {% comment %} Custom code to add link and last modified date {% endcomment %}
-      {% assign last_update = page.last_modified_at | date:post_format %}
-      {% if post_date != last_update %}
-        {% if page.path != 'blog/index.md' %}
-        ∙ <a href="https://github.com/TsekNet/website/commits/master/{{ page.path }}">Edited</a>: {{ last_update }}
-        {% endif %}
-      {% endif %}
 
       {% assign category_separator = site.data.strings.category_separator | default:" / " %}
       {% assign tag_separator      = site.data.strings.tag_separator      | default:", "  %}
       {% comment %} Don't include categories, as they're not used currently.
       {% include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator %} {% endcomment %}
+
+      <span class="read-time" title="Estimated read time">🕔
+        {% assign words = post.content | number_of_words %}
+        {% if words < 360 %}
+          1 min read
+        {% else %}
+          {{ words | divided_by:180 }} mins read
+        {% endif %}
+      </span>
+
       {% include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator %}
     </div>
 

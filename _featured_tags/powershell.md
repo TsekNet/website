@@ -1,6 +1,6 @@
 ---
 layout: tag-list
-title: Powershell
+title: PowerShell
 menu: false
 description: >
   Posts about powershell
