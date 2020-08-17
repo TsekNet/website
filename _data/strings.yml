@@ -79,7 +79,7 @@ colon: ":"
 separator: "∙"
 category_start: "in "
 category_separator: ", "
-tag_start: " 🏷️ "
+tag_start: " ∙ Tags: "
 tag_separator: ", "
 from_to_separator: "–"
 

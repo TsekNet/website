@@ -35,7 +35,7 @@
       {% comment %} Don't include categories, as they're not used currently.
       {% include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator %} {% endcomment %}
 
-      <span class="read-time" title="Estimated read time">🕔
+      <span class="read-time" title="Estimated read time"> ∙
         {% assign words = post.content | number_of_words %}
         {% if words < 360 %}
           1 min read
