@@ -18,7 +18,7 @@ document.onreadystatechange = function () {
       button.style.padding = '2px';
       button.style.position = 'absolute';
       button.style.right = '0';
-      button.style.top = '5px';
+      button.style.top = '0';
       button.style.opacity = '0.6';
       button.style.zIndex = '2';
 
