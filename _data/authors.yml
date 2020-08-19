@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 author1:
   name: Dan Tsekhanskiy
-  linkedin: dantsek
+  linkedin: tseknet
   twitter: tseknet
   github: tseknet
   email: dan@tseknet.com
@@ -29,7 +29,7 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    linkedin: dantsek
+    linkedin: tseknet
     twitter: tseknet
     github: tseknet
     email: dan@tseknet.com
