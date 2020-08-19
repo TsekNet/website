@@ -92,6 +92,12 @@ Get-ChildItem | Where-Object {$_.PsIsContainer}
 Get-Service | Where-Object {$_.status -eq "Started"}
 ```
 
+### Tail (grep) a File
+
+```powershell
+Get-Content ./logfile.log -Tail 5 –Wait
+```
+
 ### Port Scanner
 
 ```powershell

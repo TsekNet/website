@@ -5,7 +5,7 @@ document.onreadystatechange = function () {
   if (document.readyState == 'complete') {
 
     // For all pre > code, add the following
-    document.querySelectorAll('pre > code').forEach(function (codeBlock) {
+    document.querySelectorAll('div .highlight > .highlight').forEach(function (codeBlock) {
 
       // Create a button
       let button = document.createElement('button');
@@ -17,8 +17,10 @@ document.onreadystatechange = function () {
       // Button Style
       button.style.padding = '2px';
       button.style.position = 'absolute';
-      button.style.right = '5px';
+      button.style.right = '0';
       button.style.top = '5px';
+      button.style.opacity = '0.6';
+      button.style.zIndex = '2';
 
       // Add a click event
       button.addEventListener('click', function (e) {
