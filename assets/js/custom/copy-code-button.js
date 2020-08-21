@@ -5,7 +5,7 @@ document.onreadystatechange = function () {
   if (document.readyState == 'complete') {
 
     // For all pre > code, add the following
-    document.querySelectorAll('div .highlight > .highlight').forEach(function (codeBlock) {
+    document.querySelectorAll('pre > code').forEach(function (codeBlock) {
 
       // Create a button
       let button = document.createElement('button');
