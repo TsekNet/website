@@ -31,7 +31,7 @@ document.onreadystatechange = function () {
         // Set default text on successful and failed copy
         navigator.clipboard.writeText(codeBlock.innerText).then(function () {
           setTimeout(function () {
-            button.innerText = '📋';
+            button.innerText = 'Copy';
           }, 2000);
         }, function (error) {
             button.innerText = 'ERROR';
