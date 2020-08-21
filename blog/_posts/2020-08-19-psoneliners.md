@@ -16,11 +16,11 @@ Is this about comedy?
 ## Objective
 
 This post aims to document some useful one-liners I've come across as part of
-every day usage of PowerShell. Hopefully you'll find some of these powerful,
+everyday usage of PowerShell. Hopefully, you'll find some of these powerful,
 time-saving, and fun to play around with!
 
 Many of these one-liners were taken from various blogs, social media, etc., and
-are not necessary my own.
+are not necessarily my own.
 {:.note}
 
 ## Prerequisites
@@ -35,7 +35,7 @@ PowerShell console. What do you expect to see? What did you actually see?
 
 ## PowerShell One-Liners
 
-### Time of Last Reboot
+### Time of the Last Reboot
 
 ```powershell
 (Get-CimInstance Win32_OperatingSystem).LastBootUpTime
@@ -117,7 +117,7 @@ Get-Content ./logfile.log -Tail 5 –Wait
 Get-CimInstance Win32_Printer | Select-Object Name, PortName, Default
 
 # Active Directory Domain
-(Get-CimInstance -ClassName Win32_ComputerSystem).Domain
+(Get-CimInstance Win32_ComputerSystem).Domain
 ```
 
 ### Cat Facts
@@ -134,12 +134,12 @@ Invoke-RestMethod "http://xkcd.com/$(Get-Random -min 0 -max 2000)/info.0.json" |
 
 ## Conclusion
 
-Hopefully you've found some snippets in this post useful. For me, one-liners
+Hopefully, you've found some snippets in this post useful. For me, one-liners
 have been fun, interactive ways to play with PowerShell and test my knowledge,
-expectations, and push the language to it's limits.
+expectations, and push the language to its limits.
 
 Have a cool one-liner you'd like to add to this doc? Feel free to drop a comment
-or edit this page directly on github using the button below.
+or edit this page directly on GitHub using the button below.
 
 Want more one-liners? [Click
 here](https://parade.com/1040121/marynliles/one-liners/).

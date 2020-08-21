@@ -27,7 +27,7 @@ From [chocolately.org](https://chocolatey.org):
 
 This post describes how the commands I run on every new personal (and work)
 system as soon as I log in for the first time. This ensures all of my systems
-have the same software installed, everything kept up-to-date, and everything is
+have the same software installed, everything is kept up-to-date, and everything is
 updated at the same time. Heck, this could even be used to automate your mom's
 computer so she never calls you to ask how to update iTunes again (that last bit
 may be based in reality).
