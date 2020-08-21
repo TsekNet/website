@@ -56,9 +56,7 @@ Resolve-DnsName -Type ALL -Name _ldap._tcp.dc._msdcs.$env:userdnsdomain
 ### List Software Available for Uninstall
 
 ```powershell
-Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* |
-  Select-Object DisplayName, DisplayVersion, Publisher, InstallDate |
-  Format-Table
+Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName, DisplayVersion, Publisher, InstallDate | Format-Table
 ```
 
 ### Install PowerShell Core (6 and 7)
@@ -76,8 +74,7 @@ Invoke-Expression "& { $(Invoke-RestMethod -Uri aka.ms/install-powers…) }" -Us
 ### Get Parent Process(es)
 
 ```powershell
-foreach ($prid in ($ppid = foreach ($process in (Get-Process -Name "powershell")) { (Get-CimInstance Win32_Process |
-  Where-Object processid -EQ $process.Id).parentprocessid })) { Get-Process -Id $prid }
+foreach ($prid in ($ppid = foreach ($process in (Get-Process -Name "powershell")) { (Get-CimInstance Win32_Process | Where-Object processid -EQ $process.Id).parentprocessid })) { Get-Process -Id $prid }
 ```
 
 ### List Subdirectories in the Current Directory
@@ -101,9 +98,7 @@ Get-Content ./logfile.log -Tail 5 –Wait
 ### Port Scanner
 
 ```powershell
-0..65535 |
-  Foreach-Object { Test-NetConnection -Port $_ scanme.nmap.org -WA SilentlyContinue |
-    Format-Table -Property ComputerName,RemoteAddress,RemotePort,TcpTestSucceeded }
+0..65535 | Foreach-Object { Test-NetConnection -Port $_ scanme.nmap.org -WA SilentlyContinue | Format-Table -Property ComputerName,RemoteAddress,RemotePort,TcpTestSucceeded }
 ```
 
 ### Common WMI (CIM) Queries
@@ -120,23 +115,21 @@ Get-Content ./logfile.log -Tail 5 –Wait
 
 # Printers
 Get-CimInstance Win32_Printer | Select-Object Name, PortName, Default
+
+# Active Directory Domain
+(Get-CimInstance -ClassName Win32_ComputerSystem).Domain
 ```
 
 ### Cat Facts
 
 ```powershell
-Invoke-WebRequest -Uri 'https://catfact.ninja/fact' -UseBasicParsing |
-  Select-Object -ExpandProperty 'Content' |
-  ConvertFrom-Json |
-  Select-Object -ExpandProperty fact
+Invoke-WebRequest -Uri 'https://catfact.ninja/fact' -UseBasicParsing | Select-Object -ExpandProperty 'Content' | ConvertFrom-Json | Select-Object -ExpandProperty fact
 ```
 
 ### Get a Random XKCD Comic
 
 ```powershell
-Invoke-RestMethod "http://xkcd.com/$(Get-Random -min 0 -max 2000)/info.0.json" |
-  Select-Object title, transcript, alt, img |
-  Format-List
+Invoke-RestMethod "http://xkcd.com/$(Get-Random -min 0 -max 2000)/info.0.json" | Select-Object title, transcript, alt, img | Format-List
 ```
 
 ## Conclusion

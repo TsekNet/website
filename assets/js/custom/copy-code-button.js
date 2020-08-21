@@ -10,17 +10,9 @@ document.onreadystatechange = function () {
       // Create a button
       let button = document.createElement('button');
       button.type = 'button'
-      button.className = 'btn btn-sm btn-primary';
+      button.className = 'copy-code-button';
       button.innerText = 'Copy';
       button.title = 'Copy to clipboard';
-
-      // Button Style
-      button.style.padding = '2px';
-      button.style.position = 'absolute';
-      button.style.right = '0';
-      button.style.top = '0';
-      button.style.opacity = '0.6';
-      button.style.zIndex = '2';
 
       // Add a click event
       button.addEventListener('click', function (e) {
