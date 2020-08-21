@@ -5,13 +5,13 @@ document.onreadystatechange = function () {
   if (document.readyState == 'complete') {
 
     // For all pre > code, add the following
-    document.querySelectorAll('pre > code').forEach(function (codeBlock) {
+    document.querySelectorAll('div .highlight > .highlight').forEach(function (codeBlock) {
 
       // Create a button
       let button = document.createElement('button');
       button.type = 'button'
       button.className = 'btn btn-sm btn-primary';
-      button.innerText = '📋';
+      button.innerText = 'Copy';
       button.title = 'Copy to clipboard';
 
       // Button Style
