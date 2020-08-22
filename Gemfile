@@ -32,7 +32,6 @@ group :jekyll_plugins do
   gem "jekyll-relative-links"
   gem "jekyll-seo-tag", github: "hydecorp/jekyll-seo-tag"
   gem "jekyll-sitemap"
-  gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache", github: "hydecorp/jekyll-include-cache"
   gem "jekyll-last-modified-at"
 end
