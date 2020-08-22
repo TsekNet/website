@@ -3,6 +3,3 @@
 assets/img/blog/.jekyll-cache
 Gemfile.lock
 .vscode/settings.json
-
-# Local Netlify folder
-.netlify
