@@ -111,7 +111,7 @@ collections:
 
 # Set the Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from the page, remove the line below.
-google_analytics: UA-175070505-1
+# google_analytics: <id>
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
