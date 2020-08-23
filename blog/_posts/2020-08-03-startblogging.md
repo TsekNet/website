@@ -54,12 +54,10 @@ The puzzle pieces:
 ## Background
 
 For me, getting this website launched was a story of false starts. For years, I hosted
-a basic cover-page website via a virtualized Nginx VM:
+for a basic cover-page website via a virtualized Nginx VM, shown below for your
+viewing pleasure:
 
-![Old Site](../assets/img/blog/oldsite.png){:.lead width="300" height="100" loading="lazy"}
-
-My Old Website
-{:.figcaption}
+![Old Site](../assets/img/blog/oldsite.png){:.img width="500" height="100" loading="lazy"}
 
 I've been toying with the idea of hosting this website using the tools noted
 [above](#overview) ever since that old website was launched. I documented how I
@@ -144,10 +142,15 @@ website is hosted on my [GitHub
 Repo](https://github.com/tseknet/website). Here's how you can do the same:
 
 1. Navigate to [GitHub](https://github.com), creating an account if necessary.
-1. Navigate to [https://github.com/new](https://github.com/new):
+2. Navigate to [https://github.com/new](https://github.com/new):
    - Enter your desired repository name (ex: myblog) and an optional description.
    - Initialize with a README
+   - Add .gitignore: `Jekyll`
    - I normally select an `MIT License`, but that's up to you.
+
+    ![Old Site](../assets/img/blog/newgitrepo.png){:.img width="500" height="10"
+    loading="lazy"}
+
 1. Click `Create Repository`
 1. Clone your newly created repo via VSCode. See this
    [post](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33)
@@ -167,7 +170,8 @@ You'll want to modify a few commonly used GitHub files in VSCode locally.
 ```
 This repo hosts my website, which leverages Jekyll and Netlify to serve this static website.
 ```
-1. .gitignore: Files not uploaded to GitHub, for example:
+1. .gitignore: Files not uploaded to GitHub, you'll want to ensure the following
+   exist at the very least:
 ```
 _site
 .jekyll-cache
