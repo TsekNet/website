@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Useful PowerShell One-Liners
-image: /assets/img/blog/one.jpg
+image: /assets/img/blog/powershell.jpg
 description: >
   Some neat, time-saving PowerShell plug-and-play commands
 tags: [dev, automation, windows, powershell]
