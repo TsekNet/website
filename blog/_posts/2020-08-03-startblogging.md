@@ -22,9 +22,9 @@ Code on GitHub, hosted by Netlify,
 using a Jekyll theme. You'll reap the following benefits:
 
 1. A full history of your changes to any part of the site
-1. Write blog posts entirely in markdown
+1. Write blog posts entirely in Markdown
 1. Free, automatic SSL
-1. Quick Deployments, including CI/CD by default
+1. Quick deployments, including CI/CD by default
 
    ...and much more!
 
@@ -34,7 +34,7 @@ You’re going to learn a lot but you’re also expected to come to the table wi
 a few things. If you plan to follow along, be sure you have the following:
 {:.faded}
 
-1. [Chocolately](https://chocolatey.org/install)
+1. [Chocolately](https://TsekNet.com/blog/chocolatey)
 1. [VSCode](https://code.visualstudio.com)
 1. Windows
 1. Familiarity with Git
@@ -53,9 +53,7 @@ The puzzle pieces:
 
 ## Background
 
-For me, getting this website launched was a story of false starts. For years, I hosted
-for a basic cover-page website via a virtualized Nginx VM, shown below for your
-viewing pleasure:
+For me, getting this website launched was a story of false starts. For years, I hosted a basic cover page website via a virtualized Nginx VM, shown below:
 
 ![Old Site](../assets/img/blog/oldsite.png){:.img width="500" height="100" loading="lazy"}
 
@@ -71,12 +69,12 @@ Let's dive right in with how *you* can copy my homework.
 
 You'll first need to install some prerequisites:
 
-1. Install [Chocolately](https://chocolatey.org/install) for Windows, a (great) software management solution.
+1. Install [Chocolately](https://tseknet.com/blog/chocolatey) for Windows, a (great) software management solution.
 1. Install ruby: `choco install ruby`
 1. Close and re-open your preferred terminal (as admin) or
 refresh your environment before continuing.
 
-Next up, you'll need to install Jekyll and it's prerequisites:
+Next up, you'll need to install Jekyll and its prerequisites:
 
 1. Install bundler: `gem install bundler`
 1. Install Jekyll:
@@ -104,25 +102,25 @@ Finally, let's get your blog up and running:
 This website leverages the Hydejack pro theme. The
 [Hydejack documentation](https://hydejack.com/docs) is a good place to get
 started if you're interested. The main benefit I've found for the pro version of
-this theme is included in dark mode support.
+this theme is dark mode support.
 
-If you want to use the free version, clone, or download the [Hydejack starter
+If you want to use the free version, clone or download the [Hydejack starter
 kit](https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages). You'll
 find all the files required to get your blog up and running included.
 
 ### Customization and Iteration
 
 This is where you'll spend most of your time, and this is *never* really done. You'll
-want to add a spark to your website. Feel free to copy anything you like from
-[this website's GitHub repo](https://github.com/tseknet/website). Another good
-place to start is searching for popular Jekyll plugins!
+want to add some personality to your website. Feel free to copy anything you like from
+[my GitHub repo](https://github.com/tseknet/website). Another good
+place to start is searching for popular Jekyll plugins.
 
 At the very least, you'll want to modify the `_config.yml`, `Gemfile`, and any
 included markdown files (e.g. `about.markdown` and `index.markdown`) to reference
-your information, rather than the defaults. I'd recommend spending some time and
+your information, rather than the defaults. I'd recommend spending some time
 looking through your site's basic configuration(s).
 
-To make changes to this website, here's the flow that I usually follow:
+To make changes to this website, here's the workflow that I usually follow:
 
 1. Navigate to your site: [http://localhost:4000](http://localhost:4000)
 1. Make a change to a file such as `_config.yml`
@@ -135,14 +133,14 @@ To make changes to this website, here's the flow that I usually follow:
 Step one of three done already? Onwards to making your website open source!
 {:.faded}
 
-### Setup Your Repository
+### Set Up Your Repository
 
-Everything you are seeing on the
+Everything you are seeing on this
 website is hosted on my [GitHub
 Repo](https://github.com/tseknet/website). Here's how you can do the same:
 
 1. Navigate to [GitHub](https://github.com), creating an account if necessary.
-2. Navigate to [https://github.com/new](https://github.com/new):
+1. Navigate to [https://github.com/new](https://github.com/new):
    - Enter your desired repository name (ex: myblog) and an optional description.
    - Initialize with a README
    - Add .gitignore: `Jekyll`
@@ -165,8 +163,8 @@ as well.
 
 You'll want to modify a few commonly used GitHub files in VSCode locally.
 
-1. README.md: This will be what everyone sees when they visit your repository,
-   for example:
+1. README.md: This will be what everyone sees when they visit your repository.
+   For example:
 ```
 This repo hosts my website, which leverages Jekyll and Netlify to serve this static website.
 ```
@@ -183,7 +181,7 @@ Gemfile.lock
 To upload your website to GitHub:
 
 1. Copy the entire *contents* of your website into the new folder containing your repository.
-1. Commit your changes, then push your code to GitHub. Again, see this [post](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33) for how that works.
+1. Commit your changes, then push your code to GitHub. Again, see [this post](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33) for how that works.
 1. Navigate back to your GitHub repository to confirm the files were uploaded successfully.
 
 ## Netlify CMS
@@ -208,7 +206,7 @@ guide](https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-1.0-o
 ### Custom Domains
 
 Optionally, you can leverage Netlify DNS to redirect your [custom domain](https://docs.netlify.com/domains-https/custom-domains) name to
-Netlify. What's cool, is when you set this up you get free [automatic certificate management](https://docs.netlify.com/domains-https/https-ssl)
+Netlify. What's cool, is that when you set this up you get free [automatic certificate management](https://docs.netlify.com/domains-https/https-ssl)
 along with a bunch of extra features such as [image compression and CSS bundle/minify](https://www.netlify.com/blog/2019/08/05/control-your-asset-optimization-settings-from-netlify.toml/).
 
 ## Conclusion
