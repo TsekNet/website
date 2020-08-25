@@ -41,16 +41,6 @@ a few things. If you plan to follow along, be sure you have the following:
 1. Familiarity with HTML/CSS/Markdown
 1. (Optional) A custom domain name
 
-## Overview
-
-The puzzle pieces:
-{:.faded}
-
-1. [Jekyll](https://jekyllrb.com): Transforms plain text into static websites.
-1. [GitHub](https://github.com): Where the static files used by Jekyll are hosted.
-1. [Netlify](https://netlify.com): Detects changes pushed to GitHub, deploys a
-   website, and handles HTTPS.
-
 ## Background
 
 For me, getting this website launched was a story of false starts. For years, I hosted a basic cover page website via a virtualized Nginx VM, shown below:
@@ -62,6 +52,16 @@ I've been toying with the idea of hosting this website using the tools noted
 accomplished that goal for your viewing (reading?) pleasure.
 
 Let's dive right in with how *you* can copy my homework.
+
+## Overview
+
+The puzzle pieces:
+{:.faded}
+
+1. [Jekyll](https://jekyllrb.com): Transforms plain text into static websites.
+1. [GitHub](https://github.com): Where the static files used by Jekyll are hosted.
+1. [Netlify](https://netlify.com): Detects changes pushed to GitHub, deploys a
+   website, and handles HTTPS.
 
 ## Jekyll
 
