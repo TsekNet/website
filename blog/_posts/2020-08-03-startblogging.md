@@ -203,11 +203,13 @@ guide](https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-1.0-o
 1. Build your site. You should now see `Deploy in progress`, and after a minute
    or so, your new website (with a custom URL) should be live!
 
-### Custom Domains
+### Netlify vs GitHub Pages
 
-Optionally, you can leverage Netlify DNS to redirect your [custom domain](https://docs.netlify.com/domains-https/custom-domains) name to
-Netlify. What's cool, is that when you set this up you get free [automatic certificate management](https://docs.netlify.com/domains-https/https-ssl)
-along with a bunch of extra features such as [image compression and CSS bundle/minify](https://www.netlify.com/blog/2019/08/05/control-your-asset-optimization-settings-from-netlify.toml/).
+Netlify has free [custom domain support](https://docs.netlify.com/domains-https/custom-domains), [automatic certificate management](https://docs.netlify.com/domains-https/https-ssl), [handles minify for CSS and JavaScript](https://www.netlify.com/blog/2019/08/05/control-your-asset-optimization-settings-from-netlify.toml/), etc.
+
+There are also paid features such as [analytics](https://www.netlify.com/products/analytics/), with no cookies required.
+
+Netlify has a good comparison listed directly on their [website](https://www.netlify.com/github-pages-vs-netlify/) if you're interested in learning more.
 
 ## Conclusion
 
