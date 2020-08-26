@@ -15,7 +15,7 @@ You've got a nice package (manager)
 
 ## Chocolatey
 
-Did someone say chocolate?
+Did someone say chocolate? 🍫
 {:.faded}
 
 From [chocolately.org](https://chocolatey.org):
@@ -25,35 +25,36 @@ From [chocolately.org](https://chocolatey.org):
 
 ## Objective
 
-This post describes how the commands I run on every new personal (and work)
-system as soon as I log in for the first time. This ensures all of my systems
-have the same software installed, everything is kept up-to-date, and everything is
-updated at the same time. Heck, this could even be used to automate your mom's
-computer so she never calls you to ask how to update iTunes again (that last bit
-may be based in reality).
+Share with the world how I made software management sane again, keeping software
+consistent across all of my systems and updated automatically. Heck, Chocolatey
+could even be used to automate your mom's software updates so she never
+calls you to ask how to update iTunes again (that last bit may be based in
+reality).
+
 
 ## Prerequisites
 
-You’re going to learn a lot but you’re also expected to come to the table with
-a few things. If you plan to follow along, be sure you have the following:
+You’re going to learn a lot but you’re also expected to come to the table with a
+few things. If you plan to follow along, be sure you have the following:
 
 1. Windows 10 - 1903 or above is required (for Windows Terminal)
-   - Type `winver` in any terminal to check your current Windows version.
 1. Windows PowerShell 5.1 or newer, run as administrator
-1. [Chocolately](https://chocolatey.org/install)
+
+Type `winver` in any terminal to check your current Windows version.
+{:.tip}
 
 ## Background
 
-For years, I've been using various different iterations of software installation
-automation tools such as [ninite](https://ninite.com),
+For years, I’ve been using various different iterations of software installation
+automation tools such as [Ninite](https://ninite.com),
 [PDQ](https://www.pdq.com),
 [SCCM](https://en.wikipedia.org/wiki/Microsoft_System_Center_Configuration_Manager),
-etc.
+etc. These are great solutions for enterprise deployments, but I found myself
+wanting a simple, code-based solution that allows software to be managed on all
+systems by simply running a few commands.
 
-These tools all worked great, and some of them are still the preferred solutions
-for companies I've worked at. What Chocolately provides is a simple, code-based
-solution that allows me to manage software on my personal and work systems in a
-similar fashion.
+Enter Chocolatey 🤘
+{:.lead}
 
 ## Install Chocolatey Client
 
@@ -72,15 +73,16 @@ choco feature enable -n allowGlobalConfirmation -y
 
 ## Install Software Packages
 
-The packages listed below are my personal preferences. You'll want to add/remove
-any software that you're interested in. Visit [chocolatey.org/packages](https://chocolatey.org/packages)
-for a complete list of available packages.
+The packages listed below are my personal preferences. You'll want to hand
+curate this list to fit your needs. Visit
+[chocolatey.org/packages](https://chocolatey.org/packages) for a complete list
+of available packages.
 {:.important}
 
 Run the following command in PowerShell as administrator:
 
 ```powershell
-# Install Packages and create scheduled a task to weekly update chocolatey at 1AM.
+# Install packages and create a scheduled task to update chocolatey weekly at 1AM.
 choco install 7zip git googlechrome greenshot keepass microsoft-windows-terminal mpc-hc notepadplusplus
 powershell-preview putty python3 spotify steam treesizefree vscode-insiders openssh google-backup-and-sync
 chrome-remote-desktop-host microsoft-edge choco-upgrade-all-at --params "'/WEEKLY:yes /DAY:SUN /TIME:01:00'"
@@ -88,7 +90,7 @@ chrome-remote-desktop-host microsoft-edge choco-upgrade-all-at --params "'/WEEKL
 
 ### Personal PC Packages
 
-Here's some additional packages that I install on my personal (non-work) systems.
+Here are some additional packages that I install on my personal (non-work) systems.
 
 ```powershell
 # Personal PC Packages
@@ -97,11 +99,16 @@ choco install discord f.lux wd-backup logitechgaming nvidia-display-driver disab
 
 ## Conclusion
 
-By leveraging Chocolatey, you can automatically install the same software and keep
-it up-to-date with a few simple commands.
+Chocolatey = Awesome.
 
-I hope you've found this guide useful. As always, if there
-are any questions/concerns, please reach out to me directly and I'll get to them ASAP.
+By leveraging Chocolatey, you can automatically install the same software
+across any number of hosts and ensure they're kept up-to-date with a few simple
+commands.
+
+This is where I note that Chocolatey does a bunch more than just making my life
+easier; see their [features](https://chocolatey.org/pricing) list if you're
+interested in learning more and possibly deploying Chocolatey as your
+enterprise software management solution.
 
 Now get out there and make your workflow and life sweeter with Chocolatey 🤖
 
