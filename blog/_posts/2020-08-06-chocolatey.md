@@ -100,6 +100,7 @@ choco install discord f.lux wd-backup logitechgaming nvidia-display-driver disab
 ## Conclusion
 
 Chocolatey = Awesome.
+{:.tldr}
 
 By leveraging Chocolatey, you can automatically install the same software
 across any number of hosts and ensure they're kept up-to-date with a few simple
