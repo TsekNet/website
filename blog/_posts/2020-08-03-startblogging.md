@@ -34,7 +34,7 @@ You’re going to learn a lot but you’re also expected to come to the table wi
 a few things. If you plan to follow along, be sure you have the following:
 {:.faded}
 
-1. [Chocolately](https://TsekNet.com/blog/chocolatey)
+1. [Chocolatey](https://TsekNet.com/blog/chocolatey)
 1. Windows
 1. Familiarity with Git
 1. Familiarity with HTML/CSS/Markdown
@@ -69,7 +69,7 @@ The puzzle pieces:
 
 You'll first need to install some prerequisites:
 
-1. Install [Chocolately](https://tseknet.com/blog/chocolatey) for Windows, a (great) software management solution.
+1. Install [Chocolatey](https://tseknet.com/blog/chocolatey) for Windows, a (great) software management solution.
 1. Install ruby: `choco install ruby`
 1. Close and re-open your preferred terminal (as admin) or
 refresh your environment before continuing.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Chocolately Setup
+title: My Chocolatey Setup
 image: /assets/img/blog/chocolatebar.jpg
 description: >
   How I automated my computer setup.
@@ -18,7 +18,7 @@ You've got a nice package (manager)
 Did someone say chocolate? 🍫
 {:.faded}
 
-From [chocolately.org](https://chocolatey.org):
+From [chocolatey.org](https://chocolatey.org):
 
 > Chocolatey is software management automation for Windows that wraps
 > installers, executables, zips, and scripts into compiled packages.
