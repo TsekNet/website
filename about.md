@@ -37,12 +37,6 @@ At 22, I'd only been to 1 country outside the US. By 26, I traveled to 29 countr
 4 years, and hit my goal well ahead of time. Onwards to experiencing more
 cultures — and possibly 40 countries before 40.
 
-## Last Name
-
-Your last name is *really* long, how do I pronounce it?
-
-**Teh-khan-ski**
-
 ## Contact
 
 Want to get in touch? Find an error in an article?
@@ -58,6 +52,13 @@ Here's my puppy Eevee and her namesake; Feel free to reach out for more pictures
 
 ![Eevee](assets/img/common/eevee.jpg){:height="250px" width="250px"}
 ![EeveePokemon](assets/img/common/eeveepokemon.png){:height="250px" width="250px"}
+
+## Last Name
+
+Your last name is *really* long, how do I pronounce it?
+{:.faded}
+
+*Teh-khan-ski*
 
 ## Disclaimer
 
