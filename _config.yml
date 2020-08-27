@@ -10,8 +10,8 @@ baseurl: ''
 ########################################################################################################################
 
 lang: en
-title: TsekNet
-description: SRE and automation from a Windows guy
+title: Dan Tsekhanskiy
+description: SRE from a Windows guy
 # A shorter description for the sidebar.
 tagline: SRE from a Windows guy
 

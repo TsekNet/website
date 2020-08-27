@@ -5,14 +5,17 @@ sitemap: true
 cover: true
 ---
 
-Hi! I'm Dan. I have an unhealthy addiction to automation and SRE practices.
+Hi, [I'm Dan](/about/). I have an unhealthy addiction to automation and [SRE](https://landing.google.com/sre/) practices.
+{:.lead}
 
 Learning is my biggest motivator.
 {:.faded}
 
-I created this personal website as a means to self-document interesting problems
-I've solved, and share those solutions with the world, in the hopes that they
-will help others running into similar issues.
+This website aims to self-document *interesting* tech problems I've
+solved, and share those solutions with the world in the hopes that it will make
+your life easier.
+
+TsekNet is a play on words, being a mix of my last name "**Tsek**hanskiy" and Microsoft's "Tech**Net**".
 
 ## Latest Posts
 

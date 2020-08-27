@@ -35,10 +35,10 @@ a few things. If you plan to follow along, be sure you have the following:
 {:.faded}
 
 1. [Chocolately](https://TsekNet.com/blog/chocolatey)
-1. [VSCode](https://code.visualstudio.com)
 1. Windows
 1. Familiarity with Git
 1. Familiarity with HTML/CSS/Markdown
+1. (Optional) [VSCode](https://code.visualstudio.com)
 1. (Optional) A custom domain name
 
 ## Background
@@ -48,7 +48,7 @@ For me, getting this website launched was a story of false starts. For years, I 
 ![Old Site](../assets/img/blog/oldsite.png){:.img width="500" height="100" loading="lazy"}
 
 I've been toying with the idea of hosting this website using the tools noted
-[above](#overview) ever since that old website was launched. I documented how I
+[below](#overview) ever since that old website was launched. I documented how I
 accomplished that goal for your viewing (reading?) pleasure.
 
 Let's dive right in with how *you* can copy my homework.
