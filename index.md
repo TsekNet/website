@@ -15,7 +15,7 @@ This website aims to self-document *interesting* tech problems I've
 solved, and share those solutions with the world in the hopes that it will make
 your life easier.
 
-TsekNet is a play on words, being a mix of my last name "[**Tsek**hanskiy](/about#last-name)" and Microsoft's "Tech**Net**".
+TsekNet is a play on words, being a mix of my last name, "[**Tsek**hanskiy](/about#last-name)", and Microsoft's "Tech**Net**".
 
 ## Latest Posts
 
