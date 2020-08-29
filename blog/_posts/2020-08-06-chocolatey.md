@@ -3,7 +3,7 @@ layout: post
 title: My Chocolatey Setup
 image: /assets/img/blog/chocolatebar.jpg
 description: >
-  How I automated my computer setup.
+  How I automated my computer setup
 tags: [dev, automation, windows, powershell]
 ---
 

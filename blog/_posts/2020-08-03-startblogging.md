@@ -3,7 +3,7 @@ layout: post
 title: Get started with Jekyll, GitHub, and Netlify
 image: /assets/img/blog/idea.jpg
 description: >
-  How this website was made (and my first ever blog post!).
+  How this website was made (and my first ever blog post!)
 tags: [dev, open source, tutorials]
 ---
 
