@@ -31,7 +31,6 @@ could even be used to automate your mom's software updates so she never
 calls you to ask how to update iTunes again (that last bit may be based in
 reality).
 
-
 ## Prerequisites
 
 You’re going to learn a lot but you’re also expected to come to the table with a
