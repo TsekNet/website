@@ -1,6 +1,5 @@
 ﻿---
-layout: list
+layout: tag
 title: Tags
-slug: tag
-description: List of all tags used for blog posts, sorted by year.
+description: List of all tags used for blog posts, sorted by tag, then year.
 ---
