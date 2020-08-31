@@ -57,7 +57,7 @@ Before we dive in, here's a taste. Try the following:
    You'll get an error if the file already exists. This is expected.
    {:.faded}
 1. Copy the code block below into your `$profile.ps1`
-```PowerShell
+```powershell
 Set-Location C:\Temp
 Import-Module PSReadLine -Verbose
 Set-Alias ll Get-ChildItem -Option AllScope
@@ -82,7 +82,6 @@ nice](https://www.youtube.com/watch?v=HYhnflyun4E).
 PowerShell running in an administrative window while working on a git repo
 {:.figcaption}
 
----
 ![admin](/assets/img/blog/non-admin.png)
 PowerShell running in a non-admin window while working in `C:\Tmp`
 {:.figcaption}
@@ -92,7 +91,7 @@ PowerShell running in a non-admin window while working in `C:\Tmp`
 If you want to just get started with copying my homework run the following command in
 PowerShell as administrator:
 
-```PowerShell
+```powershell
 iex ((New-Object Net.WebClient).DownloadString('https://github.com/tseknet/PowerShell-Profile/raw/master/install.ps1'))
 ```
 
@@ -100,7 +99,14 @@ The command above uses the `Invoke-Expression` PowerShell cmdlet to download my
 custom installer script,
 [install.ps1](https://github.com/TsekNet/PowerShell-Profile/blob/master/install.ps1)
 from GitHub by leveraging the `System.Net.WebClient` C# cmdlet.
-{:.tldr}
+
+You will see verbose messages scrolling by explaining what is currently
+executing. You should also see a few prompts along the way, such as to allow a new
+NuGet provider. This is expected.
+{:.note}
+
+See [fonts](#fonts) below if you see missing characters.
+{:.important}
 
 ### What's Included
 
@@ -109,16 +115,42 @@ from GitHub by leveraging the `System.Net.WebClient` C# cmdlet.
 I can't take all the credit. The following (awesome) modules will be installed
 by default:
 
-1. [posh-git](https://github.com/dahlbyk/posh-git)
-1. [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
-1. [Get-ChildItemColor](https://github.com/joonro/Get-ChildItemColor)
+1. [posh-git](https://github.com/dahlbyk/posh-git): Integrates Git and PowerShell by providing Git status summary information that can be displayed in the PowerShell prompt
+1. [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh): Theme engine for Powershell
+1. [Get-ChildItemColor](https://github.com/joonro/Get-ChildItemColor): Provides colorization of outputs of Get-ChildItem Cmdlet of PowerShell
+1. [PSWriteHTML](https://github.com/EvotecIT/PSWriteHTML): Output PowerShell
+   commands to a formatted HTML page automatically
+
+#### Fonts
+
+By default, my profile installs [Powerline](https://github.com/PowerLine/fonts)
+fonts from GitHub to enable custom characters in the console. You may see
+multiple popups to install fonts. This is expected.
+
+Once the font is installed, you may see multiple missing characters. To fix
+this, see the instructions below.
+
+##### Terminal/VSCode
+
+Change your PowerShell font to `DejaVu Sans Mono for Powerline` in the settings
+JSON file.
+
+##### PowerShell Console
+
+1. Right-click the title bar of the PowerShell console
+2. Select Properties
+3. Select the Font tab
+4. Locate `DejaVu Sans Mono for Powerline`
+5. Click OK
+
+You should now see your fully customized prompt ✔
 
 #### Custom Functions
 
 Here's a high-level summary of some functions that my profile script provides:
 
 1. Set the PowerShell Window Title with useful information such as elevation and version
-1. Install/Import modules listed above
+1. Install and import modules listed above
 1. Overwrite `ll` / `ls` / `history` commands for better results
 1. Download and set my personal `oh-my-posh` theme module, [TsekNet.psm1](https://github.com/TsekNet/PowerShell-Profile/blob/master/Themes/TsekNet.psm1)
 1. Install [Powerline](https://github.com/PowerLine/fonts) fonts using `posh-git`
@@ -126,6 +158,11 @@ Here's a high-level summary of some functions that my profile script provides:
 1. Output functions made by the profile to the console
 
     ...and much more!
+
+## Troubleshooting
+
+Errors will be shown in the console. Type `$Error[0]` to see the latest error
+message if necessary for troubleshooting.
 
 ## Conclusion
 
