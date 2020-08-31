@@ -24,7 +24,7 @@ You’re going to learn a lot but you’re also expected to come to the table wi
 few things. If you plan to follow along, be sure you have the following:
 
 1. Windows 10 (tested on 1903 and newer)
-1. Windows PowerShell 5.1 or newer (tested on 5.1 and 7.0), run as administrator
+1. Windows PowerShell (tested on 5.1 and 7.0), run as administrator
 
 ## Background
 
@@ -52,17 +52,17 @@ docs](https://docs.microsoft.com/en-us/PowerShell/module/microsoft.PowerShell.co
 Before we dive in, here's a taste. Try the following:
 
 1. Open PowerShell as administrator
-1. Create your profile by typing `New-Item $profile.ps1`
+1. Create your profile by typing `New-Item $profile`
 
    You'll get an error if the file already exists. This is expected.
    {:.faded}
-1. Copy the code block below into your `$profile.ps1`
+1. Copy the code block below into your `$profile`
 ```powershell
-Set-Location C:\Temp
+Set-Location $env:TEMP
 Import-Module PSReadLine -Verbose
 Set-Alias ll Get-ChildItem -Option AllScope
 ```
-1. Type `& $profile.ps1` and hit enter. There you go, there's your first PowerShell $profile.
+1. Type `& $profile` and hit enter. There you go, there's your first PowerShell $profile.
 
 What happens? What did you expect to happen?
 {:.faded}
@@ -95,17 +95,11 @@ PowerShell as administrator:
 iex ((New-Object Net.WebClient).DownloadString('https://github.com/tseknet/PowerShell-Profile/raw/master/install.ps1'))
 ```
 
-The command above uses the `Invoke-Expression` PowerShell cmdlet to download my
-custom installer script,
-[install.ps1](https://github.com/TsekNet/PowerShell-Profile/blob/master/install.ps1)
-from GitHub by leveraging the `System.Net.WebClient` C# cmdlet.
-
-You will see verbose messages scrolling by explaining what is currently
+You'll see verbose messages scrolling by explaining what is currently
 executing. You should also see a few prompts along the way, such as to allow a new
 NuGet provider. This is expected.
-{:.note}
 
-See [fonts](#fonts) below if you see missing characters.
+See [fonts](#fonts) below if you see missing characters in your prompt.
 {:.important}
 
 ### What's Included
@@ -115,11 +109,14 @@ See [fonts](#fonts) below if you see missing characters.
 I can't take all the credit. The following (awesome) modules will be installed
 by default:
 
-1. [posh-git](https://github.com/dahlbyk/posh-git): Integrates Git and PowerShell by providing Git status summary information that can be displayed in the PowerShell prompt
-1. [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh): Theme engine for Powershell
-1. [Get-ChildItemColor](https://github.com/joonro/Get-ChildItemColor): Provides colorization of outputs of Get-ChildItem Cmdlet of PowerShell
+1. [posh-git](https://github.com/dahlbyk/posh-git): Integrates Git and
+   PowerShell by providing Git status summary information
+1. [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh): Theme engine for
+   PowerShell
+1. [Get-ChildItemColor](https://github.com/joonro/Get-ChildItemColor): Provides
+   colorization of outputs of `Get-ChildItem` Cmdlet of PowerShell
 1. [PSWriteHTML](https://github.com/EvotecIT/PSWriteHTML): Output PowerShell
-   commands to a formatted HTML page automatically
+   commands to a formatted HTML page
 
 #### Fonts
 
@@ -127,8 +124,11 @@ By default, my profile installs [Powerline](https://github.com/PowerLine/fonts)
 fonts from GitHub to enable custom characters in the console. You may see
 multiple popups to install fonts. This is expected.
 
-Once the font is installed, you may see multiple missing characters. To fix
+Once the font(s) are installed, you may see multiple missing characters. To fix
 this, see the instructions below.
+
+The default Powerline font that this theme uses is `DejaVu Sans Mono for Powerline`. This can be modified in `profile.ps1`.
+{:.note}
 
 ##### Terminal/VSCode
 
@@ -143,12 +143,13 @@ JSON file.
 4. Locate `DejaVu Sans Mono for Powerline`
 5. Click OK
 
-You should now see your fully customized prompt ✔
+You should now see your fully customized prompt 🎉
 
 #### Custom Functions
 
 Here's a high-level summary of some functions that my profile script provides:
 
+1. Auto-update: Download the latest profile file from GitHub if necessary
 1. Set the PowerShell Window Title with useful information such as elevation and version
 1. Install and import modules listed above
 1. Overwrite `ll` / `ls` / `history` commands for better results
@@ -163,6 +164,17 @@ Here's a high-level summary of some functions that my profile script provides:
 
 Errors will be shown in the console. Type `$Error[0]` to see the latest error
 message if necessary for troubleshooting.
+
+## Making it Your Own
+
+As mentioned in the [background](#background) section, PowerShell profiles are unique. Feel free to
+fork [my profile](https://github.com/TsekNet/PowerShell-Profile) from GitHub, and modify it to fit your needs.
+
+As an example, you can point the auto-updater function `Import-GitRepo` to
+your repository [here](https://github.com/TsekNet/PowerShell-Profile/blob/0bfb9352fcd69a64889d379242dd4fce5201f1f8/profile.ps1#L277).
+
+I've tried to break out functions that you may want to modify at the bottom of
+the script, including cmdlets with configurable options.
 
 ## Conclusion
 
