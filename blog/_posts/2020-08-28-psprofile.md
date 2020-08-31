@@ -88,6 +88,13 @@ PowerShell running in a non-admin window while working in `C:\Tmp`
 
 ---
 
+This is where I tell you to be sure you're aware of what you're downloading from the internet.
+You can view the source on GitHub and inspect the code prior to
+downloading/executing anything described in this post. I do eventually plan on
+making my profile a signed PowerShell module to make it easier to download and
+distribute.
+{:.warning}
+
 If you want to just get started with copying my homework run the following command in
 PowerShell as administrator:
 
