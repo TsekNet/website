@@ -80,7 +80,7 @@ foreach ($prid in ($ppid = foreach ($process in (Get-Process -Name "powershell")
 ### List Subdirectories in the Current Directory
 
 ```powershell
-Get-ChildItem | Where-Object {$_.PsIsContainer}
+Get-ChildItem -Directory
 ```
 
 ### List Started Services
