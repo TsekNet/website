@@ -53,9 +53,10 @@ Your last name is *really* long, how do I pronounce it?
 
 *Teh-khan-ski*
 
-## Disclaimer
+## Around the Web
 
-The opinions stated here are my own, not necessarily those of my employer.
+- [Top 60 PowerShell Blogs 2020](https://blog.feedspot.com/powershell_blogs/)
+- [Ridicurious Editors Pick](https://ridicurious.com/2020/08/28/weekly-newsletter-powershell-digest-006/)
 
 ## Contact
 
@@ -64,3 +65,8 @@ Want to get in touch? Find an error in an article?
 
 I can be reached via any of the channels listed in the sidebar of this site in
 addition to responding to any comments left on this site.
+
+
+## Disclaimer
+
+The opinions stated here are my own, not necessarily those of my employer.
