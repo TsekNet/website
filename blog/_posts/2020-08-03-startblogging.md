@@ -100,7 +100,7 @@ Finally, let's get your blog up and running:
 ### My Theme
 
 This website leverages the Hydejack pro theme. The
-[Hydejack documentation](https://hydejack.com/docs) is a good place to get
+[Hydejack documentation](https://hydejack.com/docs/) is a good place to get
 started if you're interested. The main benefit I've found for the pro version of
 this theme is dark mode support.
 
