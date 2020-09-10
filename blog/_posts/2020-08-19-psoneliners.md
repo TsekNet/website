@@ -120,6 +120,12 @@ Get-CimInstance Win32_Printer | Select-Object Name, PortName, Default
 (Get-CimInstance Win32_ComputerSystem).Domain
 ```
 
+### Get Time Until Next Year
+
+```powershell
+(Get-Date -Date "$((Get-Date).Year + 1)/1/1") - (Get-Date)
+```
+
 ### Cat Facts
 
 ```powershell
