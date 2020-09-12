@@ -21,7 +21,7 @@ Build a free, open-source website.
 Code on GitHub, hosted by Netlify,
 using a Jekyll theme. You'll reap the following benefits:
 
-1. A full history of your changes to any part of the site
+1. A full history of your changes to any part of the website
 1. Write blog posts entirely in Markdown
 1. Free, automatic SSL
 1. Quick deployments, including CI/CD by default
@@ -41,13 +41,18 @@ a few things. If you plan to follow along, be sure you have the following:
 1. (Optional) [VSCode](https://code.visualstudio.com)
 1. (Optional) A custom domain name
 
+While this tutorial was written with Windows in mind, the only difference
+per platform is how you [install
+Jekyll](https://jekyllrb.com/docs/installation/) and file paths.
+{:.note}
+
 ## Background
 
-For me, getting this website launched was a story of false starts. For years, I hosted a basic cover page website via a virtualized Nginx VM, shown below:
+For me, getting my blog launched was a story of false starts. For years, I hosted a basic cover page website via a virtualized Nginx VM, shown below:
 
 ![Old Site](../assets/img/blog/oldsite.png){:.img width="500" height="100" loading="lazy"}
 
-I've been toying with the idea of hosting this website using the tools noted
+I've been toying with the idea of hosting my blog using the tools noted
 [below](#overview) ever since that old website was launched. I documented how I
 accomplished that goal for your viewing (reading?) pleasure.
 
@@ -83,7 +88,7 @@ Next up, you'll need to install Jekyll and its prerequisites:
    - `gem install jekyll` or your preferred theme (see note below)
 
 I would pause here if you're interested in leveraging a custom theme, as Jekyll themes often
-provide all the files you'll need to get started. This website uses the HydeJack
+provide all the files you'll need to get started. My blog uses the HydeJack
 theme, described [below](#my-theme).
 {:.note}
 
@@ -99,12 +104,12 @@ Finally, let's get your blog up and running:
 
 ### My Theme
 
-This website leverages the Hydejack pro theme. The
+My blog leverages the Hydejack pro theme. The
 [Hydejack documentation](https://hydejack.com/docs/) is a good place to get
 started if you're interested. The main benefit I've found for the pro version of
 this theme is dark mode support.
 
-If you want to use the free version, clone or download the [Hydejack starter
+If you want to use the free version, clone (or download) the [Hydejack starter
 kit](https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages). You'll
 find all the files required to get your blog up and running included.
 
@@ -120,7 +125,7 @@ included markdown files (e.g. `about.markdown` and `index.markdown`) to referenc
 your information, rather than the defaults. I'd recommend spending some time
 looking through your site's basic configuration(s).
 
-To make changes to this website, here's the workflow that I usually follow:
+To make changes to my blog, here's the workflow that I usually follow:
 
 1. Navigate to your site: [http://localhost:4000](http://localhost:4000)
 1. Make a change to a file such as `_config.yml`
@@ -190,7 +195,7 @@ Final stretch! Now let's automate that website!
 {:.faded}
 
 Netlify runs the `jekyll build` command for you against your
-GitHub repo, does SSL/optimization/CDN magic, and publishes your website.
+GitHub repo, does SSL/optimization/CDN "magic", and publishes your website.
 {:.tldr}
 
 The following steps will get you started, taken directly from the official [Netlify Jekyll
@@ -219,7 +224,7 @@ plugins available.
 
 I hope you've found this guide useful. I appreciate your time in reading my first blog post!
 
-If you ran into any issues or have any suggestions, please reach out to me directly or leave a comment.
+If you run into any issues or have any suggestions, please reach out to me directly or leave a comment.
 
 Now get out there and build that beautiful website 🏗️
 
