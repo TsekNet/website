@@ -41,14 +41,18 @@ a few things. If you plan to follow along, be sure you have the following:
 1. (Optional) [VSCode](https://code.visualstudio.com)
 1. (Optional) A custom domain name
 
-While this tutorial was written with Windows in mind, the only difference
+While this tutorial was written with Windows in mind, the only differences
 per platform is how you [install
 Jekyll](https://jekyllrb.com/docs/installation/) and file paths.
 {:.note}
 
 ## Background
 
-For me, getting my blog launched was a story of false starts. For years, I hosted a basic cover page website via a virtualized Nginx VM, shown below:
+Getting [my blog](https://tseknet.com) launched was a story of false
+starts. I started this project to push myself to learn new tools (read: play
+with new toys).
+
+For years, I hosted a basic cover page website via a virtualized Nginx VM, shown below:
 
 ![Old Site](../assets/img/blog/oldsite.png){:.img width="500" height="100" loading="lazy"}
 
@@ -168,18 +172,24 @@ as well.
 
 You'll want to modify a few commonly used GitHub files in VSCode locally.
 
-1. README.md: This will be what everyone sees when they visit your repository.
-   For example:
-```
-This repo hosts my website, which leverages Jekyll and Netlify to serve this static website.
-```
-1. .gitignore: Files not uploaded to GitHub, you'll want to ensure the following
-   exist at the very least:
-```
-_site
-.jekyll-cache
-Gemfile.lock
-```
+1. `README.md`: This will be what everyone sees when they visit your repository.
+   See [makeareadme.com](https://www.makeareadme.com/) for tips on how to make
+   awesome README files.
+
+    Example:
+    ```
+    This repo hosts my website, which leverages Jekyll and Netlify to serve this static website.
+    ```
+
+1. `.gitignore`: Files not uploaded to GitHub, you'll want to ensure the following
+   exist at the very least.
+
+    Example:
+    ```
+    _site
+    .jekyll-cache
+    Gemfile.lock
+    ```
 
 ### Open Source Your Website
 
