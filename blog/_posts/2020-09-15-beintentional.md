@@ -1,0 +1,67 @@
+﻿---
+layout: post
+title: Be Intentional With Your Time
+image: /assets/img/blog/domore.jpg
+description: >
+  Take control of your productivity
+tags: [tips, productivity, focus]
+---
+
+Intend to be intentional.
+{:.figcaption}
+
+- Table of Contents
+{:toc}
+
+Time—somehow it's already 5PM, and the last thing you remember is sipping your
+morning coffee. How can you take control of your day?
+{:.lead}
+
+If you are serious about an endeavor, you will remove every distraction from your life. This is the idea behind intentionality that we'll dive into today. Set aside time to do the things that are important to you.
+
+One of the first, and best, things that I've learned from my time working at Google has been: if you don't take control of your time, someone else will. You will inevitably be pulled into meetings, you will have the urge to work through lunch, and you will make up reasons to avoid working on the task at hand.
+
+I struggled with meeting overload. Trying to get things done within 30-minute breaks between meetings is not sustainable. Combining my meetings onto "meeting days" (future blog post), in conjunction with blocking out time to work on what I determine to be valuable allowed me to regain control over my time.
+
+Example calendar blocks for a standard Tuesday:
+
+![Example Calendar](/assets/img/blog/examplecalendar.png)
+
+Let's dive into how *you* can take control of *your* time.
+
+## Call to Action
+
+I challenge you to think about something that you want to accomplish today. Now get out your calendar and block out time to get that task done. More importantly, set a notification to remind you that this event is upcoming, giving you ample time to prepare and set everything else aside.
+
+![Intentional Example](/assets/img/blog/calscreenshot.png)
+
+Start small. Examples include settings aside time to appropriately respond to an email, read one chapter of a book, or go for a one mile run. Time keeps on slippin', slippin', slippin' into the fuuuture... whether or not you take control of it is up to you. If you don't set aside time, you will become burdened with the tax associated with context switching between getting your task done and everything else on your plate. It's easy to become complacent if you aren't intentional. Setting aside a calendar block is your personal accountabilibuddy.
+
+Tasks can be as specific or as vague as you'd like. What's important is that there are clear exit criterion. If your goal was "run five miles" in your 50-minute calendar block, then there's no question of what the exit criteria is. If your goal is something like "investigate work issue," the exit criteria may be that you've identified the root cause of your work issue. It's ultimately up to you how specific you are with your goals, I'll just note that the smaller the scope of your goal, the more likely it is to be achieved.
+
+Use your calendar as your to-do list to prioritize tasks. The first time you intend to work on something, create a calendar block to work on it. Don't wait until it's been on your to-do list for months, as the same dread you associate with that task will be there, just on your calendar now.
+
+## Success
+
+I guarantee you will get a better feeling from accomplishing a task you've blocked out time to accomplish vs. just checking something off a to-do list. This is more than a chore. It's something you set out to do, set aside a specific time to do it, and you've done it. You'll feel better knowing you've intentionally set aside scheduled time for that task, and accomplished your goal within that time frame.
+
+## Failure
+
+Life—it has a way of getting in the way.
+{:.faded}
+
+It's critically important to not beat yourself up if you haven't accomplished your task in the allotted time slot. Other things will come up. In this likely scenario, simply reschedule your calendar event for a later date.
+
+Learn from your mistakes. Why were you not able to accomplish your goal? Was the time you allotted too short? Was the task harder than you initially expected? Did other tasks overrun your allotted time? These are all opportunities for better scheduling in the future. Ultimately, if it's something you truly care about, you'll make time.
+
+## Conclusion
+
+Be intentional with your time. Take control of your day. Begin by reflecting on what is important to you. Next, create a block of time on your calendar to achieve that goal. Reflect on whether that goal was achieved, and don't be too hard on yourself if it wasn't. Iterate, improve.
+
+I wrote this article in the hopes that it helps you accomplish your goals. I invite you to let me know if it worked. Let me know if it didn't work. Let me know if you have any suggestions for how this methodology can be improved.
+
+Now get out there and hack your productivity 💪
+
+## Related Links
+
+- [S.M.A.R.T criteria](https://en.wikipedia.org/wiki/SMART_criteria)
