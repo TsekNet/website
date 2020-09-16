@@ -18,8 +18,7 @@ Let's build a website!
 Build a free, open-source website.
 {:.faded}
 
-Code on GitHub, hosted by Netlify,
-using a Jekyll theme. You'll reap the following benefits:
+Jekyll theme, code on GitHub, hosted by Netlify. You'll reap the following benefits:
 
 1. A full history of your changes to any part of the website
 1. Write blog posts entirely in Markdown
@@ -41,7 +40,7 @@ a few things. If you plan to follow along, be sure you have the following:
 1. (Optional) [VSCode](https://code.visualstudio.com)
 1. (Optional) A custom domain name
 
-While this tutorial was written with Windows in mind, the only differences
+While this tutorial was written with Windows in mind, the only difference
 per platform is how you [install
 Jekyll](https://jekyllrb.com/docs/installation/) and file paths.
 {:.note}
@@ -108,7 +107,7 @@ Finally, let's get your blog up and running:
 
 ### My Theme
 
-My blog leverages the Hydejack pro theme. The
+My blog leverages the Hydejack Pro theme. The
 [Hydejack documentation](https://hydejack.com/docs/) is a good place to get
 started if you're interested. The main benefit I've found for the pro version of
 this theme is dark mode support.
@@ -228,8 +227,9 @@ Netlify has a good comparison listed directly on their [website](https://www.net
 
 ## Conclusion
 
-By leveraging Jekyll, GitHub, and Netlify, you can reap all the benefits of code
-based configuration, take for granted features such as automatic SSL, and have a beautiful website with tons of
+By leveraging Jekyll, GitHub, and Netlify, you can reap all the benefits of
+code-based configuration, take for granted features such as automatic SSL, and
+have a beautiful website with tons of
 plugins available.
 
 I hope you've found this guide useful. I appreciate your time in reading my first blog post!
