@@ -56,6 +56,8 @@ Your last name is *really* long, how do I pronounce it?
 ## Around the Web
 
 - [Top 60 PowerShell Blogs 2020](https://blog.feedspot.com/powershell_blogs/)
+- [Featured on Hydejack (this website's theme)](https://hydejack.com/showcase/tseknet)
+- [Featured on powershell.org](https://powershell.org/2020/09/icymi-powershell-week-of-04-september-2020/)
 - [Ridicurious Editors Pick](https://ridicurious.com/2020/08/28/weekly-newsletter-powershell-digest-006/)
 
 ## Contact
