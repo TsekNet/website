@@ -98,18 +98,18 @@ date_formats:
 # ---------------------------------------------------------------------------------------
 # If you don't own the PRO version of Hydejack, modifying these will have no effect.
 
-# tinyletter:
-#   title: TsekNet Mailing List
-#   label: Email
-#   placeholder: Enter your email address
-#   button: Subscribe
-#   message: |
-#     Enter your email address to follow this blog and receive notifications of new posts by email.
+tinyletter:
+  title: Follow This Blog
+  label: Email
+  placeholder: email@example.com
+  button: Subscribe 🚀
+  message: |
+    Enter your email address to follow this blog and receive notifications of new posts by email.
 
-#     <!--form-->
+    <!--form-->
 
-#     No 3rd party products, no spam. Emails handled by [Tinyletter](https://tinyletter.com/)
-#     {:.faded}
+    I'll continue producing great content worthy of your inbox.
+    {:.faded}
 
 welcome:
   more_projects: See <!--projects_title--> for more

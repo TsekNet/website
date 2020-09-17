@@ -15,8 +15,18 @@ description: SRE from a Windows guy
 # A shorter description for the sidebar.
 tagline: SRE from a Windows guy
 
-keywords: ['PowerShell', 'SCCM', 'pwsh', 'SysAdmin', 'Systems Administrator',
-'DevOps', 'SRE']
+keywords: [
+  'PowerShell',
+  'SCCM',
+  'pwsh',
+  'SysAdmin',
+  'Systems Administrator',
+  'DevOps',
+  'SRE',
+  'Python',
+  'Tutorials',
+  'Tips'
+  ]
 
 # A (square) logo for the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
@@ -119,7 +129,7 @@ collections:
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
-# tinyletter: <username>
+tinyletter: TsekNet
 
 
 ########################################################################################################################
@@ -128,7 +138,7 @@ collections:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons: [about, newsletter, related, random, comments]
+  post_addons: [newsletter, about, related, random, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
   no_mark_external: true

@@ -27,10 +27,10 @@ layout: base
 {% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}
 {% for addon in addons %}
   {% case addon %}
+  {% when 'newsletter' %}
+    {% include_cached if-non-null try="pro/newsletter.html" %}
   {% when 'about' %}
      {% include_cached components/about.html author=page.author %}
-  {% when 'newsletter' %}
-    {% include if-non-null try="pro/newsletter.html" %}
   {% when 'related' %}
     {% include if-non-null try="pro/related-posts.html" fallback="components/related-posts.html" %}
   {% when 'random' %}
