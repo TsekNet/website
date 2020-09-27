@@ -73,16 +73,16 @@ Run the following command in PowerShell as administrator:
 
 ```powershell
 # Install packages and create a scheduled task to update chocolatey weekly at 1AM.
-choco install 7zip git googlechrome greenshot keepass microsoft-windows-terminal mpc-hc notepadplusplus powershell-preview putty python3 spotify steam treesizefree vscode-insiders openssh google-backup-and-sync chrome-remote-desktop-host microsoft-edge gitversion.portable choco-upgrade-all-at --params "'/WEEKLY:yes /DAY:SUN /TIME:01:00'"
+choco install 7zip chrome-remote-desktop-host git gitversion.portable google-backup-and-sync googlechrome greenshot keepass microsoft-edge microsoft-windows-terminal mpc-hc notepadplusplus openssh powershell-preview powertoys putty python3 spotify steam treesizefree vscode-insiders choco-upgrade-all-at --params "'/WEEKLY:yes /DAY:SUN /TIME:01:00'"
 ```
 
-### Personal PC Packages
+### Sprinkle Some Personal Packages
 
 Here are some additional packages that I install on my personal (non-work) systems.
 
 ```powershell
 # Personal PC Packages
-choco install discord f.lux wd-backup logitechgaming nvidia-display-driver disablewintracking cpu-z
+choco install cpu-z disablewintracking discord f.lux logitechgaming nvidia-display-driver wd-backup
 ```
 
 ## Conclusion
