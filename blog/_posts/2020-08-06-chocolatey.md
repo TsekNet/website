@@ -73,7 +73,7 @@ Run the following command in PowerShell as administrator:
 
 ```powershell
 # Install packages and create a scheduled task to update chocolatey weekly at 1AM.
-choco install 7zip chrome-remote-desktop-host git gitversion.portable google-backup-and-sync googlechrome greenshot keepass microsoft-edge microsoft-windows-terminal mpc-hc notepadplusplus openssh powershell-preview powertoys putty python3 spotify steam treesizefree vscode-insiders choco-upgrade-all-at --params "'/WEEKLY:yes /DAY:SUN /TIME:01:00'"
+choco install 7zip chrome-remote-desktop-host git gitversion.portable google-backup-and-sync googlechrome greenshot keepass microsoft-edge microsoft-windows-terminal mpc-hc notepadplusplus openssh powershell-preview putty python3 spotify steam treesizefree vscode-insiders choco-upgrade-all-at --params "'/WEEKLY:yes /DAY:SUN /TIME:01:00'"
 ```
 
 ### Sprinkle Some Personal Packages
