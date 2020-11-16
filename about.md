@@ -13,8 +13,7 @@ image: /assets/img/logo.png
 Learning is my biggest motivator.
 {:.faded}
 
-Windows Systems Administrator with an unhealthy addiction to automation and [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
-practices.
+SRE with an unhealthy addiction to automation.
 
 With over five years of experience in IT, my primary areas of focus are
 PowerShell, Python, automation, CI/CD, infrastructure as code,
