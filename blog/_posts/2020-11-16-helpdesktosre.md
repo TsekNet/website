@@ -153,4 +153,4 @@ Now get out there and take charge of your career 💪
 1. [DevOps vs SRE](https://en.wikipedia.org/wiki/Site_reliability_engineering)
 1. [Career vs. Job](https://donjones.com/2019/09/05/career-vs-job/)
 1. [SMART Criteria](https://en.wikipedia.org/wiki/SMART_criteria)
-1. [Be Intentional](https://tseknet.com/intent)
+1. [Be Intentional](https://tseknet.com/blog/intent)
