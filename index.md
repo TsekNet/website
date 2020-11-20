@@ -5,13 +5,10 @@ sitemap: true
 cover: true
 ---
 
-Hi, [I'm Dan](/about/). I have an unhealthy addiction to automation and [SRE](https://landing.google.com/sre/) practices.
+Hi, I'm Dan. I'm a Windows SRE @Google.
 {:.lead}
 
-Learning is my biggest motivator.
-{:.faded}
-
-This website aims to self-document *interesting* tech problems I've
+This website aims to document *interesting* tech problems I've
 solved, and share those solutions with the world in the hopes that it will make
 your life easier.
 
