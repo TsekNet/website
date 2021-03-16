@@ -22,7 +22,7 @@ imaging/provisioning, configuration management, and championing SRE practices.
 I work on the [WinOps SRE](https://github.com/google/winops) team at Google,
 helping maintain our open source Windows imaging tool called
 [Glazier](https://github.com/google/glazier) and BeyondCorp imaging utility
-called [Fresnel](https://github.com/google/glazier).
+called [Fresnel](https://github.com/google/fresnel).
 
 I ❤️ open source. I aim to work entirely on open-source projects both
 professionally and personally.
