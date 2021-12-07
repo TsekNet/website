@@ -119,8 +119,9 @@ version of Windows your systems will attempt to upgrade to!
 | -------------------------------------------------------------------- | ------------------------ | ------------ | ------------------------------------------------------------------------------------ |
 | HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate | TargetReleaseVersion     | 1            | Setting this to one enables Feature Upgrades to the TargetReleaseVersionInfo version |
 | HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate | TargetReleaseVersionInfo | 20H2         | The target version of the system                                                     |
+| HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate | ProductVersion | Windows 10         | New in Windows 11 - one of "Windows 10" or "Windows 11" |
 
-These registry values can either be set directly, or via [Group Policy](Microsoft nixes update deferral settings, but gives us a TargetReleaseVersionInfo)
+These registry values can either be set directly, or via [Group Policy]([Microsoft nixes update deferral settings, but gives us a TargetReleaseVersionInfo](https://www.computerworld.com/article/3564158/microsoft-nixes-update-deferral-settings-but-gives-us-a-targetreleaseversioninfo.html))
 {:.note}
 
 ## Where to go from here
