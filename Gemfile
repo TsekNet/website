@@ -25,7 +25,7 @@ gem "jekyll", github: "jekyll/jekyll"
 gem "kramdown-math-katex"
 
 group :jekyll_plugins do
-  gem "jekyll-default-layout", github: "benbalter/jekyll-default-layout"
+  gem "jekyll-default-layout", github: "benbalter/jekyll-default-layout", branch: "main"
   gem "jekyll-feed"
   gem "jekyll-optional-front-matter"
   gem "jekyll-redirect-from"
