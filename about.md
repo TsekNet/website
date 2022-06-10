@@ -15,7 +15,7 @@ Learning is my biggest motivator.
 
 SRE with an unhealthy addiction to automation.
 
-With over five years of experience in IT, my primary areas of focus are
+With over eight years of experience in IT, my primary areas of focus are
 PowerShell, Python, automation, CI/CD, infrastructure as code,
 imaging/provisioning, configuration management, and championing SRE practices.
 
