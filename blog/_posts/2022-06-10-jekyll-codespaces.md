@@ -13,7 +13,7 @@ tags: [open source, devops, dev, tutorials, github]
 Local web development is so 2020.
 {:.lead}
 
-The world has changed a lot since my first blog post about... well... [how I made this blog](2020-08-03-startblogging.md). Naturally, my process for authoring new posts has improved since then. All you'll need to get started is a Visual Studio Codespace and a single Visual Studio Code extension. Let's dive right in and show you how the *sauce is made*.
+The world has changed a lot since my first blog post about... well... [how I made this blog](startblogging). Naturally, my process for authoring new posts has improved since then. All you'll need to get started is a Visual Studio Codespace and a single Visual Studio Code extension. Let's dive right in and show you how the *sauce is made*.
 
 ## GitHub Codespaces
 

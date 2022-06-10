@@ -75,7 +75,7 @@ The puzzle pieces:
 
 ### Installation
 
-Want to skip the install step? See this [blog post](2022-06-10-jekyll-codespaces.md)
+Want to skip the install step? See this [blog post](jekyll-codespaces)
 {:.tip}
 
 You'll first need to install some prerequisites:
