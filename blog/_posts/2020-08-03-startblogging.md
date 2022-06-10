@@ -75,6 +75,9 @@ The puzzle pieces:
 
 ### Installation
 
+Want to skip the install step? See this [blog post](2022-06-10-jekyll-codespaces.md)
+{:.tip}
+
 You'll first need to install some prerequisites:
 
 1. Install [Chocolatey](https://tseknet.com/blog/chocolatey) for Windows, a (great) software management solution.
