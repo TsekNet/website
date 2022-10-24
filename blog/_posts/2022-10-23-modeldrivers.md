@@ -84,10 +84,10 @@ applies OS drivers before booting into the OS during deployment, I would also
 recommend running Windows Updates once booted into the OS for the first time.
 
 This script also assumes that manufacturers test their drivers before
-deployment (not always the case), and that the "latest" drivers will work on
-your systems. You'll have to discuss if this added automation is a worthwhile
-trade-off with your team. Heck, feel free to fork this script entirely to
-add resiliency, or submit PRs to improve the script itself.
+deployment (not always the case), and that the "latest" OS version drivers
+will work on your systems. You'll have to discuss if this added automation is a
+worthwhile trade-off with your team. Heck, feel free to fork this script
+entirely to add resiliency, or submit PRs to improve the script itself.
 
 Hopefully, this script saves you some time that could be better
 used on automation, rather than fumbling with OS driver deployment 💻🔂⏩
