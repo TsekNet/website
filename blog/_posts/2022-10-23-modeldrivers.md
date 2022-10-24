@@ -27,8 +27,14 @@ deployment time...?
 
 ## The Solution
 
-I’ll start by sharing the entire script, then describing it in more detail
-[below](#what-it-does). I’m always open to suggestions, so feel free to open a
+Scrape manufacturer websites using RegEx for direct driver download URLs. RegEx
+works well for this but...
+
+<img src="https://imgs.xkcd.com/comics/perl_problems.png" title="" alt="Perl Problems" srcset="https://imgs.xkcd.com/comics/perl_problems_2x.png 2x" style="image-orientation: none;">
+
+With that out of the way, I’ll start by sharing the entire script,
+then describing it in more detail [below](#what-it-does). I’m always open to
+suggestions, so feel free to open a
 [pull request](https://github.com/TsekNet/PowerShell/pulls) or comment below!
 
 <style>
