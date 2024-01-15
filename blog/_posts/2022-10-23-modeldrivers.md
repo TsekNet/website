@@ -7,6 +7,9 @@ description: >
 tags: [powershell, windows, SCCM, automation, opensource]
 ---
 
+- Table of Contents
+{:toc}
+
 Imagine never needing to worry about drivers during Windows Operating System
 deployment ever again.
 {:.lead}
