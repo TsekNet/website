@@ -13,13 +13,14 @@ image: /assets/img/logo.png
 Learning is my biggest motivator.
 {:.faded}
 
-SRE with an unhealthy addiction to automation.
+Software Engineer working on the Cross Platform Experience team at Google
+-- writing cross platform software that runs on Linux, Mac, and Windows.
 
-With over eight years of experience in IT, my primary areas of focus are
-PowerShell, Python, automation, CI/CD, infrastructure as code,
+With over nine years of experience in IT, my primary areas of focus are
+Go, Python, PowerShell, automation, CI/CD, infrastructure as code,
 imaging/provisioning, configuration management, and championing SRE practices.
 
-I work on the [WinOps SRE](https://github.com/google/winops) team at Google,
+Previously worked on the [WinOps SRE](https://github.com/google/winops) team at Google,
 helping maintain our open source Windows imaging tool called
 [Glazier](https://github.com/google/glazier) and BeyondCorp imaging utility
 called [Fresnel](https://github.com/google/fresnel).
