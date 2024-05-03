@@ -13,10 +13,10 @@ image: /assets/img/logo.png
 Learning is my biggest motivator.
 {:.faded}
 
-Software Engineer working on the Cross Platform Experience team at Google
--- writing cross platform software that runs on Linux, Mac, and Windows.
+Senior Software Engineer working on designing, developing, and deploying scalable 
+cross-platform software for the large enterprise fleet at Google (Linux, Mac, and Windows).
 
-With over nine years of experience in IT, my primary areas of focus are
+With a decade+ of experience in IT, my primary areas of focus are
 Go, Python, PowerShell, automation, CI/CD, infrastructure as code,
 imaging/provisioning, configuration management, and championing SRE practices.
 
