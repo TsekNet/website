@@ -5,7 +5,7 @@ sitemap: true
 cover: true
 ---
 
-Hi, I'm Dan. I'm a Windows SRE @ Google.
+Hi, I'm Dan. I'm a Senior Software Engineer @ Google.
 {:.lead}
 
 This website aims to document *interesting* tech problems I've
