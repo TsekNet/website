@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Plex Downloads Still Suck
-image: /assets/img/blog/loading.jpg
+image: /assets/img/blog/plex-downloads.jpg
 description: >
   The unsatisfying story of how I've resolved to download media (movies, etc.) from my NAS to my phone.
 tags: [plex, jellyfin, homelab, smb, nas, tips, windows]
