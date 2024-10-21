@@ -13,7 +13,7 @@ image: /assets/img/logo.png
 Learning is my biggest motivator.
 {:.faded}
 
-Senior Software Engineer working on designing, developing, and deploying scalable 
+Senior Software Engineer working on designing, developing, and deploying scalable
 cross-platform software for the large enterprise fleet at Google (Linux, Mac, and Windows).
 
 With a decade+ of experience in IT, my primary areas of focus are
@@ -28,16 +28,6 @@ called [Fresnel](https://github.com/google/fresnel).
 I ❤️ open source. I aim to work entirely on open-source projects both
 professionally and personally.
 
-## Travel
-
-When I think about what truly makes me happy — it's travel.
-{:.faded}
-
-At 22, I set the goal of traveling to 30 countries before turning 30.
-At 22, I'd only been to 1 country outside the US. By 26, I traveled to 29 countries in
-4 years, and hit my goal well ahead of time. Onwards to experiencing more
-cultures—maybe *40 countries before 40*?
-
 ## Puppy 🐶
 
 Here's my puppy Eevee and her namesake; Feel free to reach out for more pictures
@@ -51,7 +41,7 @@ Here's my puppy Eevee and her namesake; Feel free to reach out for more pictures
 Your last name is *really* long, how do I pronounce it?
 {:.faded}
 
-*Teh-khan-ski*
+*Tseh-han-ski*
 
 ## Around the Web
 
