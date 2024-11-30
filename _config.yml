@@ -55,6 +55,10 @@ menu:
     url: /blog/
   - title: About
     url: /about/
+  - title: Home
+    url:/home/
+  - title: Project
+    url:/project/
 
 copyright: ''
 
