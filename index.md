@@ -1,22 +1,17 @@
 ---
 layout: home
-title: 👋
+title: VM Research Group
 sitemap: true
 cover: true
 ---
 
-Hi, I'm Dan. I'm a Senior Software Engineer @ Google.
+Hello, welcome to my home page in the [Lyles School of Civil and Construction Engineering](https://engineering.purdue.edu/CCE) at Purdue University.  
 {:.lead}
 
-This website aims to document *interesting* tech problems I've
-solved, and share those solutions with the world in the hopes that it will make
-your life easier.
-
-TsekNet is a play on words: my last name ([**Tsek**hanskiy](/about#last-name)) + Microsoft's Tech**Net**.
-
+This website is created as a resource that has information about me, my research group, our current research and lots of learning material. Check out the tutorials page and the youtube channel for learnign resources. 
 ## Latest Posts
 
-<!--posts-->
+#<!--posts-->
 
-See [Posts](/posts/) for more
-{:.read-more}
+#See [Posts](/posts/) for more
+#{:.read-more}
