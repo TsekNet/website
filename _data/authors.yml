@@ -2,11 +2,12 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name: Dan Tsekhanskiy
-  linkedin: tseknet
-  twitter: tseknet
-  github: tseknet
-  email: dan@tseknet.com
+  name: Venkatesh Merwade
+  linkedin: venkatesh-merwade-255633b9
+  twitter: vmmerwade
+  instagram: f00dfitne55
+  email: vmerwade@purdue.edu
+  youtube: hydrologyvideos8253
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -28,10 +29,11 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    linkedin: tseknet
-    twitter: tseknet
-    github: tseknet
-    email: dan@tseknet.com
+    linkedin: venkatesh-merwade-255633b9
+    twitter: vmmerwade
+    instagram: f00dfitne55
+    email: vmerwade@purdue.edu
+    youtube: hydrologyvideos8253
 # Another author (optional)
 # author2:
 #   name: <firtname> <lastname>
