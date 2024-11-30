@@ -56,9 +56,9 @@ menu:
   - title: About
     url: /about/
   - title: Home
-    url:/home/
+    url: /home/
   - title: Project
-    url:/project/
+    url: /project/
 
 copyright: ''
 
