@@ -11,7 +11,7 @@ baseurl: 'website'
 
 lang: en
 title: Venkatesh Merwade
-description: SRE from a Windows guy
+description: Professor at Purdue University
 # A shorter description for the sidebar.
 tagline: SRE from a Windows guy
 
@@ -35,8 +35,8 @@ logo: /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: Dan Tsekhanskiy
-  email: dan@tseknet.com
+  name: Venkatesh Merwade
+  email: vmerwade@purdue.edu
   # # Used by `jekyll-seo-tag`:
   twitter: tseknet
   rss: true
