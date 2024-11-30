@@ -13,19 +13,22 @@ lang: en
 title: Venkatesh Merwade
 description: Professor at Purdue University
 # A shorter description for the sidebar.
-tagline: SRE from a Windows guy
+tagline: Professor at Purdue University
 
 keywords: [
-  'PowerShell',
-  'SCCM',
-  'pwsh',
-  'SysAdmin',
-  'Systems Administrator',
-  'DevOps',
-  'SRE',
-  'Python',
+  'venkatesh',
+  'merwade',
+  'vmerwade',
+  'vmmerwade',
+  'hydrology tutorials',
+  'flood modeling',
+  'hydrologyvideos',
+  'hec-ras',
   'Tutorials',
-  'Tips'
+  'hec-hms',
+  'gis'
+  'gis hydrology'
+  'computational watershed hydrology'
   ]
 
 # A (square) logo for the sidebar.
