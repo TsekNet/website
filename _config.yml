@@ -51,14 +51,17 @@ share-links-active:
 
 # Add links to the sidebar.
 menu:
-  - title: Blog
+  - title: CV
     url: /blog/
-  - title: About
-    url: /about/
-  - title: Home
-    url: /home/
-  - title: Project
+  - title: Current Researh
+    url: /blog/
+  - title: Teaching
     url: /project/
+  - title: Team Members
+    url: /about/
+  - title: Tutorials
+    url: /home/
+  
 
 copyright: ''
 
