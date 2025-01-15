@@ -89,7 +89,7 @@ Get-ChildItem -Directory
 Get-Service | Where-Object {$_.status -eq "Started"}
 ```
 
-### Tail (grep) a File
+### Tail a File
 
 ```powershell
 Get-Content ./logfile.log -Tail 5 –Wait
