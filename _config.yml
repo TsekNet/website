@@ -42,7 +42,6 @@ author:
   rss: true
 
 share-links-active:
-  twitter: true
   facebook: true
   linkedin: true
 
@@ -267,10 +266,6 @@ google_site_verification: UA-175070505-1
 # bing: <verification-id>
 # alexa:<verification-id>
 # yandex:  <verification-id>
-
-# Used for twitter cards
-twitter:
-  username:  tseknet
 
 # Used for facebook open graph
 # facebook:

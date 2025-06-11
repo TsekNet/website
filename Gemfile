@@ -37,5 +37,11 @@ group :jekyll_plugins do
   gem "jekyll-last-modified-at"
 end
 
-gem 'wdm' if Gem.win_platform?
-gem "tzinfo-data" if Gem.win_platform?
+if Gem.win_platform?
+  gem 'wdm'
+  gem 'csv'
+  gem 'bigdecimal'
+  gem 'base64'
+  gem "tzinfo-data"
+  gem "liquid", "~> 4.0.4"
+end

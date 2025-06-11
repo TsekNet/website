@@ -55,7 +55,7 @@ Your last name is *really* long, how do I pronounce it?
 Want to get in touch? Find an error in an article?
 {:.faded}
 
-The best way to reach me is via twitter [@tseknet](https://twitter.com/tseknet).
+The best way to reach me is via [LinkedIn](https://www.linkedin.com/in/tseknet).
 Other ways to contact me can be found on the sidebar of this website.
 
 ## Disclaimer

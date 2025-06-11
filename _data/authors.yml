@@ -4,7 +4,6 @@
 author1:
   name: Dan Tsekhanskiy
   linkedin: tseknet
-  twitter: tseknet
   github: tseknet
   email: dan@tseknet.com
 
@@ -29,7 +28,6 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     linkedin: tseknet
-    twitter: tseknet
     github: tseknet
     email: dan@tseknet.com
 # Another author (optional)
@@ -44,5 +42,4 @@ author1:
 #     Open `_data/authors.yml` to edit this text.
 
 #   picture: https://placehold.it/128x128
-#   twitter: <username>
 #   github: <username>
