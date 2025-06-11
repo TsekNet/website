@@ -6,21 +6,21 @@ image: /assets/img/logo.png
 ---
 
 - Table of Contents
-{:toc}
+  {:toc}
 
 ## Work
 
 Learning is my biggest motivator.
 {:.faded}
 
-Senior Software Engineer working on designing, developing, and deploying scalable
-cross-platform software for the large enterprise fleet at Google (Linux, Mac, and Windows).
+Senior Staff Software Engineer working on building scalable, reliable,
+code-driven solutions for managing NVIDIA's large internal enterprise fleet.
 
 With a decade+ of experience in IT, my primary areas of focus are
 Go, Python, PowerShell, automation, CI/CD, infrastructure as code,
 imaging/provisioning, configuration management, and championing SRE practices.
 
-Previously worked on the [WinOps SRE](https://github.com/google/winops) team at Google,
+Previously worked on the Cross-platform (Linux, Mac, Windows) and [WinOps SRE](https://github.com/google/winops) teams at Google.
 helping maintain our open source Windows imaging tool called
 [Glazier](https://github.com/google/glazier) and BeyondCorp imaging utility
 called [Fresnel](https://github.com/google/fresnel).
@@ -38,10 +38,10 @@ Here's my puppy Eevee and her namesake; Feel free to reach out for more pictures
 
 ## Last Name
 
-Your last name is *really* long, how do I pronounce it?
+Your last name is _really_ long, how do I pronounce it?
 {:.faded}
 
-*Tseh-han-ski*
+_Tseh-han-ski_
 
 ## Around the Web
 
