@@ -18,9 +18,9 @@ layout: compress
 ---
 
 {% assign version = jekyll.version | split:'.' %}
-{% assign major = v[0] %}
-{% assign minor = v[1] %}
-{% assign patch = v[2] %}
+{% assign major = version[0] %}
+{% assign minor = version[1] %}
+{% assign patch = version[2] %}
 
 {% assign plugins = site.plugins | default:site.gems %}
 

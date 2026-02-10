@@ -119,7 +119,7 @@ collections:
 ########################################################################################################################
 
 # Set the Google Analytics id to receive `pageview` events.
-# To remove Google Anaylics from the page, remove the line below.
+# To remove Google Analytics from the page, remove the line below.
 # google_analytics: <id>
 
 # Setting a disqus shortname will enable the comment section on

@@ -2,7 +2,7 @@
 layout: home
 title: 👋
 sitemap: true
-cover: true
+cover: false
 ---
 
 Hi, I'm Dan. I'm a Senior Staff Software Engineer @ NVIDIA.

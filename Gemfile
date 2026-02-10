@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", github: "jekyll/jekyll"
 
-# IMPORTANT: The followign gem is used to compile math formulas to
+# IMPORTANT: The following gem is used to compile math formulas to
 # KaTeX during site building.
 #
 # There are a couple of things to know about this gem:
