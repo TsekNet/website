@@ -1,10 +1,10 @@
 ﻿---
 layout: post
 title: How One Blocked URL Added 10 Minutes to Every Domain Join
-image: /assets/img/blog/brick_wall.jpg
+image: /assets/img/blog/firewall.png
 description: >
   Windows probes msftconnecttest.com before Entra join, obviously.
-tags: [tips, dev, devops, tutorials]
+tags: [dev, devops, tips, tutorials, windows]
 ---
 
 - Table of Contents
