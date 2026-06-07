@@ -10,10 +10,9 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: >
-    SRE with an unhealthy addiction to automation. With over ten years of
-    experience in IT, my primary areas of focus are Go, PowerShell, Python,
-    automation, CI/CD, infrastructure as code, imaging/provisioning, and
-    configuration management.
+    Software Engineer with a strong passion for automation, backed by over
+    ten years of experience, focused on designing and developing software
+    that boosts employee productivity.
 
   # This photo will be used in the about section
   picture:
