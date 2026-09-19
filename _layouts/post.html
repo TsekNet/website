@@ -24,17 +24,11 @@ layout: base
 {% comment %} <hr class="dingbat related" /> {% endcomment %}
 
 {% assign addons = page.addons | default:site.hydejack.post_addons %}
-{% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}
+{% unless addons %}{% assign addons = "related,comments" | split:"," %}{% endunless %}
 {% for addon in addons %}
   {% case addon %}
-  {% when 'newsletter' %}
-    {% include_cached if-non-null try="pro/newsletter.html" %}
-  {% when 'about' %}
-     {% include_cached components/about.html author=page.author %}
   {% when 'related' %}
     {% include if-non-null try="pro/related-posts.html" fallback="components/related-posts.html" %}
-  {% when 'random' %}
-    {% include if-non-null try="pro/random-posts.html" %}
   {% when 'comments' %}
     {% include body/github-comments.html %}
   {% else %}
