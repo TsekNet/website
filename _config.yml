@@ -126,10 +126,6 @@ collections:
 # pages with `comments: true` in the front matter.
 # disqus: <username>
 
-# Setting a tinyletter username will enable the newsletter subscription box.
-# PRO version only!
-tinyletter: TsekNet
-
 
 ########################################################################################################################
 # Hydejack (website theme) settings                                                                                    #
@@ -137,7 +133,7 @@ tinyletter: TsekNet
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons: [newsletter, about, related, random, comments]
+  post_addons: [related, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
   no_mark_external: true

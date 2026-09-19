@@ -55,7 +55,6 @@
   @import "pro/projects";
   @import "pro/resume";
   @import "pro/bootstrap-mod/bootstrap";
-  @import "pro/message-newsletter";
 
   {% unless site.hydejack.no_search %}
     @import "pro/search";
@@ -101,7 +100,6 @@
   @import "pro/projects";
   @import "pro/resume";
   @import "pro/bootstrap-mod/bootstrap";
-  @import "pro/message-newsletter";
 
   {% unless site.hydejack.no_search %}
     @import "pro/_search.scss";
