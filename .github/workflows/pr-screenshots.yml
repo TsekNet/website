@@ -1,0 +1,43 @@
+name: PR screenshots
+
+on:
+  push:
+    branches: [audit-cleanup]
+  workflow_dispatch:
+
+jobs:
+  shots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Build site
+        run: bundle exec jekyll build
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install playwright
+        run: |
+          npm i playwright
+          npx playwright install --with-deps chromium
+      - name: Serve and screenshot
+        run: |
+          (bundle exec jekyll serve --host 127.0.0.1 --port 4000 > serve.log 2>&1 &)
+          for i in $(seq 1 90); do curl -sf http://127.0.0.1:4000/ > /dev/null && break; sleep 2; done
+          node .github/screenshots.js
+      - uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: |
+            before-*.png
+            after-*.png
+          if-no-files-found: error
+      - name: Upload serve log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serve-log
+          path: serve.log
