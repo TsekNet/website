@@ -9,10 +9,6 @@ amazon:
 google:
   name: Google
   icon: icon-google
-google-plus:
-  name: Google+
-  icon: icon-google-plus
-  prepend: 'https://plus.google.com/'
 google-drive:
   name: Google Drive
   icon: icon-google-drive
@@ -38,17 +34,10 @@ twitter:
   name: Twitter
   icon: icon-twitter
   prepend: 'https://twitter.com/'
-vine:
-  name: Vine
-  icon: icon-vine
-  prepend: 'https://vine.com/'
 vk:
   name: VK
   icon: icon-vk
   prepend: "https://vk.com/"
-renren:
-  name: 人人网
-  icon: icon-renren
 sina-weibo:
   name: Sina Weibo
   icon: icon-sina-weibo
@@ -67,9 +56,6 @@ vimeo:
   name: Vimeo
   icon: icon-vimeo
   prepend: "https://www.vimeo.com/"
-lanyrd:
-  name: Lanyrd
-  icon: icon-lanyrd
 flickr:
   name: Flickr
   icon: icon-flickr2
@@ -122,10 +108,6 @@ wordpress:
 joomla:
   name: Joomla!
   icon: icon-joomla
-ello:
-  name: Ello
-  icon: icon-ello
-  prepend: "https://ello.co/"
 blogger:
   name: Blogger
   icon: icon-blogger
@@ -164,14 +146,6 @@ lastfm:
   name: Last.fm
   icon: icon-lastfm
   prepend: "http://www.last.fm/user/"
-delicious:
-  name: Delicious
-  icon: icon-delicious
-  prepend: "http://del.icio.us/"
-stumbleupon:
-  name: StumbleUpon
-  icon: icon-stumbleupon
-  prepend: "http://www.stumbleupon.com/stumbler/"
 stackoverflow:
   name: Stack Overflow
   icon: icon-stackoverflow

@@ -1,10 +1,10 @@
 ﻿---
 layout: post
 title: How to Automatically Download the Latest Windows Device Drivers
-image: /assets/img/blog/gettingready.jpg
+image: /assets/img/blog/gettingready.webp
 description: >
   Automatically download the latest device drivers during Windows OS deployment (Dell, Lenovo, HP, etc.).
-tags: [powershell, windows, SCCM, automation, opensource]
+tags: [powershell, windows, sccm, automation, open-source]
 ---
 
 - Table of Contents
@@ -40,9 +40,6 @@ then describing it in more detail [below](#what-it-does). I’m always open to
 suggestions, so feel free to open a
 [pull request](https://github.com/TsekNet/PowerShell/pulls) or comment below!
 
-<style>
-.ps1 {height: 500px; overflow: scroll;}
-</style>
 <script src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FTsekNet%2FPowerShell%2Fblob%2Fmaster%2FInstall-ModelDrivers%2Finstall_model_drivers.ps1&style=obsidian&showBorder=on&showFileMeta=on"></script>
 
 The ideal solution is automated and doesn't require updating when new OS drivers

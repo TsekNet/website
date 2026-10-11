@@ -1,10 +1,10 @@
 ﻿---
 layout: post
 title: "Building a Script Library for FleetDM"
-image: /assets/img/blog/library.jpg
+image: /assets/img/blog/library.webp
 description: >
   Use a common scripts library in FleetDM to avoid rewriting common script logic
-tags: [automation, dev, devops, fleet, github, open source, powershell, tips, tutorials, windows]
+tags: [automation, dev, devops, fleet, github, open-source, powershell, tips, tutorials, windows]
 ---
 
 Inline helper functions into Fleet scripts at deploy time.
@@ -77,7 +77,7 @@ can be expanded to include any number of functions.
 
 ## The deets
 
-Here's the high-level idea of how you can implement the a Fleet GitOps shared script library:
+Here's the high-level idea of how you can implement a Fleet GitOps shared script library:
 
 ### Create a helpers folder
 

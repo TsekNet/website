@@ -2,7 +2,7 @@
 {% assign username = include.username %}
 
 {% if username.size > 0 %}
-  {% assign = data_social = site.data.social[platform] | default:site.data_social[platform] %}
+  {% assign data_social = site.data.social[platform] %}
 
   {% assign name = data_social.name | default:include.platform %}
   {% assign icon = data_social.icon | default:'icon-link' %}

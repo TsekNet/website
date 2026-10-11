@@ -2,7 +2,7 @@
 layout: about
 title: >
   > whoami
-image: /assets/img/logo.png
+image: /assets/img/logo.webp
 ---
 
 - Table of Contents
@@ -33,8 +33,8 @@ professionally and personally.
 Here's my puppy Eevee and her namesake; Feel free to reach out for more pictures
 :)
 
-![Eevee](assets/img/common/eevee.jpg){:height="250px" width="250px"}
-![EeveePokemon](assets/img/common/eeveepokemon.png){:height="250px" width="250px"}
+![Eevee](/assets/img/common/eevee.webp){:height="250px" width="250px"}
+![EeveePokemon](/assets/img/common/eeveepokemon.png){:height="250px" width="250px"}
 
 ## Last Name
 

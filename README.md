@@ -82,7 +82,14 @@ The sidebar (`_includes/body/sidebar.html`) uses the Hydejack `<hy-drawer>`; its
 - **Local:** `bundle exec jekyll serve`
 - **Production build:** `bundle exec jekyll build` (output in `_site/`)
 
-Netlify runs the build and publishes `_site/`; config is in [netlify.toml](netlify.toml) (`JEKYLL_ENV=production`).
+Netlify runs the build and publishes `_site/`; config is in [netlify.toml](netlify.toml) (`JEKYLL_ENV=production`). Open PRs get an automatic Netlify deploy preview at `https://deploy-preview-<PR-number>--tseknet.netlify.app`.
+
+## Conventions and maintenance notes
+
+- **Dependencies:** all gems are pinned to rubygems.org releases in the [Gemfile](Gemfile) (`jekyll ~> 4.3`); do not use `github:` gem sources. Add new gems with `bundle add <gem>`.
+- **Tags:** use lowercase tags in post front matter (spaces are allowed — e.g. `open source` — but slugs are preferred, e.g. `open-source`). `_plugins/tag_generator.rb` auto-creates matching `_featured_tags/<slug>.md` files during build; commit them.
+- **Images:** blog images live in `assets/img/blog/`, are converted to WebP (max 1600px wide, quality ~80) and referenced with absolute paths (`/assets/img/blog/name.webp`). `assets/img/logo.webp` is the site avatar; PWA icons live in `assets/icons/`.
+- **Disabled/removed features:** dark mode (Hydejack PRO-only), projects & resume layouts, offline/service-worker mode, Disqus, Google Analytics — either removed or intentionally disabled. See the git history if you want to bring any back.
 
 ## Testing Changes
 

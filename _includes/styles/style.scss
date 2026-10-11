@@ -53,7 +53,6 @@
   @import "hydejack/__link__/footer";
 
   @import "pro/projects";
-  @import "pro/resume";
   @import "pro/bootstrap-mod/bootstrap";
 
   {% unless site.hydejack.no_search %}
@@ -98,7 +97,6 @@
   @import "hydejack/_footer.pre.scss";
 
   @import "pro/projects";
-  @import "pro/resume";
   @import "pro/bootstrap-mod/bootstrap";
 
   {% unless site.hydejack.no_search %}

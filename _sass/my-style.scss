@@ -12,3 +12,19 @@
     margin: 1rem 0;
   }
 }
+
+// Tag index page (_layouts/tag.html)
+.tag-index {
+  .tag-cloud .post-tag {
+    display: inline-block;
+    margin: 0 .35rem .6rem 0;
+    padding: .05rem .7rem;
+    border: 1px solid rgba(128, 128, 128, .35);
+    border-radius: 1rem;
+  }
+
+  .tag-section h2 .fine {
+    font-weight: 400;
+    font-size: .8em;
+  }
+}

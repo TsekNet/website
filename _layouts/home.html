@@ -7,7 +7,7 @@ layout: about
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
 {% if content contains "<!--projects-->" %}
-{% capture projets_x %}
+{% capture projects_x %}
 {% if page.selected_projects %}
   <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
     {% for project_path in page.selected_projects %}
@@ -59,7 +59,7 @@ layout: about
   {% endif  %}
 {% endif %}
 {% endcapture %}
-{% assign content = content | replace:"<!--projects-->", projets_x %}
+{% assign content = content | replace:"<!--projects-->", projects_x %}
 {% endif %}
 
 {% if content contains "<!--posts-->" %}

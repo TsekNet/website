@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Get started with Jekyll, GitHub, and Netlify
-image: /assets/img/blog/idea.jpg
+image: /assets/img/blog/idea.webp
 description: >
   How this website was made (and my first ever blog post!)
-tags: [dev, open source, tutorials]
+tags: [dev, open-source, tutorials]
 ---
 
 Let's build a website!
@@ -33,7 +33,7 @@ You’re going to learn a lot but you’re also expected to come to the table wi
 a few things. If you plan to follow along, be sure you have the following:
 {:.faded}
 
-1. [Chocolatey](https://TsekNet.com/blog/chocolatey)
+1. [Chocolatey](https://tseknet.com/blog/chocolatey)
 1. Windows
 1. Familiarity with Git
 1. Familiarity with HTML/CSS/Markdown
@@ -53,7 +53,7 @@ with new toys).
 
 For years, I hosted a basic cover page website via a virtualized Nginx VM, shown below:
 
-![Old Site](../assets/img/blog/oldsite.png){:.img width="500" height="100" loading="lazy"}
+![Old Site](/assets/img/blog/oldsite.webp){:.img width="500" height="353" loading="lazy"}
 
 I've been toying with the idea of hosting my blog using the tools noted
 [below](#overview) ever since that old website was launched. I documented how I
@@ -75,7 +75,7 @@ The puzzle pieces:
 
 ### Installation
 
-Want to skip the install step? See this [blog post](jekyll-codespaces)
+Want to skip the install step? See this [blog post](/blog/jekyll-codespaces)
 {:.tip}
 
 You'll first need to install some prerequisites:
@@ -157,7 +157,7 @@ Repo](https://github.com/tseknet/website). Here's how you can do the same:
    - Add .gitignore: `Jekyll`
    - I normally select an `MIT License`, but that's up to you.
 
-    ![Old Site](../assets/img/blog/newgitrepo.png){:.img width="500" height="10"
+    ![New Git repo](/assets/img/blog/newgitrepo.png){:.img width="500" height="417"
     loading="lazy"}
 
 1. Click `Create Repository`
@@ -201,7 +201,7 @@ To upload your website to GitHub:
 1. Commit your changes, then push your code to GitHub. Again, see [this post](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33) for how that works.
 1. Navigate back to your GitHub repository to confirm the files were uploaded successfully.
 
-## Netlify CMS
+## Netlify
 
 Final stretch! Now let's automate that website!
 {:.faded}

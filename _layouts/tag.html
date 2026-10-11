@@ -2,8 +2,6 @@
 layout: base
 ---
 
-{% assign posts = site.tags[page.slug] %}
-
 {% if page.title.size > 0 %}
   <header>
     <h1 class="page-title">{{ page.title }}</h1>
@@ -12,27 +10,41 @@ layout: base
   <hr class="sr-only"/>
 {% endif %}
 
-<div>
-  <div>
-    {% for tag in site.tags %}
-    <a href="{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] | capitalize }}</a>
+{% assign date_formats = site.data.strings.date_formats %}
+{% assign list_entry    = date_formats.list_entry | default:"%d %b %Y" %}
+{% assign tags_sorted   = site.tags | sort %}
+
+<div class="tag-index">
+  <p class="tag-cloud">
+    {% for tag in tags_sorted %}
+      {% assign tag_name = tag[0] %}
+      {% assign featured_tag = site.featured_tags | where: "slug", tag_name | first %}
+      {% if featured_tag %}
+        <a href="{{ featured_tag.url | relative_url }}" class="post-tag flip-title">{{ featured_tag.title }}</a>
+      {% else %}
+        <span class="post-tag">{{ tag_name | capitalize }}</span>
+      {% endif %}
     {% endfor %}
-  </div>
-  <div>
-    {% for tag in site.tags %}
-    <h3 id="{{ tag[0] | slugify }}">{{ tag | first | capitalize }}</h3>
-    <table>
-    <tr>
-      <th>Name</th>
-      <th>Date</th>
-    </tr>
-      {% for post in tag[1] %}
-      <tr>
-        <td><a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</td>
-        <td>{{ post.date | date: "%Y-%m-%d" }}</td>
-      </tr>
-      {% endfor %}
-    </table>
-    {% endfor %}
-  </div>
+  </p>
+
+  {% for tag in tags_sorted %}
+    {% assign tag_name    = tag[0] %}
+    {% assign tag_posts   = tag[1] | sort: "date" | reverse %}
+    {% assign featured_tag = site.featured_tags | where: "slug", tag_name | first %}
+    <section class="tag-section">
+      <h2 id="{{ tag_name | slugify }}" class="hr">
+        {% if featured_tag %}
+          <a href="{{ featured_tag.url | relative_url }}" class="flip-title">{{ featured_tag.title }}</a>
+        {% else %}
+          {{ tag_name | capitalize }}
+        {% endif %}
+        <span class="faded fine">({{ tag_posts.size }})</span>
+      </h2>
+      <ul class="related-posts">
+        {% for post in tag_posts %}
+          {% include components/post-list-item.html post=post format=list_entry %}
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
 </div>

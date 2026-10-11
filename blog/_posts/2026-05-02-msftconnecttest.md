@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: How One Blocked URL Added 10 Minutes to Every Domain Join
-image: /assets/img/blog/firewall.png
+image: /assets/img/blog/firewall.webp
 description: >
   Windows probes msftconnecttest.com before Entra join, obviously.
 tags: [dev, devops, tips, tutorials, windows]
@@ -30,7 +30,7 @@ And the domain isn't `*.microsoft.com` or `*.windows.net` or any wildcard you al
 
 Allow `http://www.msftconnecttest.com/connecttest.txt` through your network firewall.
 
-That's it. Just spend a few weeks reverse engineering how Micrososft domain join works, and you too would find this. Just a silent timeout and the implicit expectation that you'll eventually stumble across the answer while debugging something else. I guess this blog is just becoming Micrososft docs?
+That's it. Just spend a few weeks reverse engineering how Microsoft domain join works, and you too would find this. Just a silent timeout and the implicit expectation that you'll eventually stumble across the answer while debugging something else. I guess this blog is just becoming Microsoft docs?
 
 Anyway, hope this post saved you time in debugging this for your setup. Have fun out there ✌️
 

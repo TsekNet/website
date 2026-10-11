@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: How to Determine Windows Version
-image: /assets/img/blog/windowskeyboard.jpg
+image: /assets/img/blog/windowskeyboard.webp
 description: >
   So how does one determine the version of Windows running across an enterprise environment?
 tags: [devops, tips, windows, registry]
@@ -49,7 +49,7 @@ The values listed in the table above are not officially documented by Microsoft
 Microsoft has not communicated changes to these Registry values, documented
 their official support, or guaranteed against
 [breaking changes in the future](https://twitter.com/bytenerd/status/1395072885249564672).
-This has lead to a frustrating experience using the Registry keys above, given how inconsistent Microsoft's updates to these keys have historically been. Examples:
+This has led to a frustrating experience using the Registry keys above, given how inconsistent Microsoft's updates to these keys have historically been. Examples:
 
 - ReleaseID was
   [deprecated](https://twitter.com/bytenerd/status/1395071115072966656) in
@@ -100,8 +100,8 @@ menu can be used to determine Windows Version. This is meant to be more end-user
 facing for verification, rather than for use to determine system version at
 scale. Examples below:
 
-![winver](../../assets/img/blog/winver.jpg)
-![winversettings](../../assets/img/blog/winversettings.png)
+![winver](/assets/img/blog/winver.jpg)
+![winversettings](/assets/img/blog/winversettings.webp)
 
 ## Why This Matters
 

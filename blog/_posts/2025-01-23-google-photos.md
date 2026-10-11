@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: How to Ditch Google Photos
-image: /assets/img/blog/google-photos.jpg
+image: /assets/img/blog/google-photos.webp
 description: >
   Google Photos is great, but I already have a storage server.
 tags: [nas, tips, tutorials, degoogle]
@@ -51,7 +51,7 @@ Folder structure should look like this:
 
 Start by taking a step back and deciding where you want your photos to live, and if you want any other application to manage your photos (ex: Synology Photos, Immich, etc.). These applications may require that photos are placed in specific directories, so make sure to set these up before continuing. This could technically be anywhere you want, but I'd recommend storing your photos on your storage server (NAS).
 
-Next up is making sense of the export that Google Takeout provided you. To do this, we'll use an open-sourced tool called GooglePhotosTakeoutHelper on GitHub following the steps below.:
+Next up is making sense of the export that Google Takeout provided you. To do this, we'll use an open-sourced tool called GooglePhotosTakeoutHelper on GitHub following the steps below:
 
 1. Download the latest binary from their [releases page](https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper/releases) on GitHub (either Linux, Mac, or Windows)
 1. Launch the downloaded binary *as admin* (this is different depending on the platform you downloaded)
@@ -59,7 +59,7 @@ Next up is making sense of the export that Google Takeout provided you. To do th
    - You should see a pop-up file explorer view, select the `/takeout` directory from earlier
 1. Go back to the command prompt where the binary is running, and hit the enter key again to select the destination directory
    - You should see a pop-up file explorer view, select your destination directory (can be your storage server)
-1. Let GooglePhotosTakeoutHelper do it's magic
+1. Let GooglePhotosTakeoutHelper do its magic
 1. (OPTIONAL) Organize the resulting `/ALL_PHOTOS` output folder in the destination directory
 
 ## 4. (Optional) Manual Organization

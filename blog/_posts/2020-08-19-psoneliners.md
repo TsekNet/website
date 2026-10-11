@@ -30,7 +30,7 @@ Windows PowerShell 5.1 (unless otherwise specified), usually run as administrato
 ## Background
 
 Part of learning PowerShell is simply writing code and getting a feel for what
-the output should look like. Go ahead, copy and of these one-liners into your
+the output should look like. Go ahead, copy any of these one-liners into your
 PowerShell console. What do you expect to see? What did you actually see?
 
 ## PowerShell One-Liners
@@ -44,7 +44,7 @@ PowerShell console. What do you expect to see? What did you actually see?
 ### Find Your Public IP Address
 
 ```powershell
-(Invoke-RestMethod ipinfo.io/json).ip
+(Invoke-RestMethod https://ipinfo.io/json).ip
 ```
 
 ### Find Domain Controllers on Your Domain
@@ -62,7 +62,7 @@ Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | S
 ### Install PowerShell Core (6 and 7)
 
 ```powershell
-Invoke-Expression "& { $(Invoke-RestMethod -Uri aka.ms/install-powers…) }" -UseMSI -Preview
+Invoke-Expression "& { $(Invoke-RestMethod -Uri aka.ms/install-powershell) }" -UseMSI -Preview
 ```
 
 ### Get Free Space for System Drive
@@ -92,7 +92,7 @@ Get-Service | Where-Object {$_.status -eq "Started"}
 ### Tail a File
 
 ```powershell
-Get-Content ./logfile.log -Tail 5 –Wait
+Get-Content ./logfile.log -Tail 5 -Wait
 ```
 
 ### Port Scanner
