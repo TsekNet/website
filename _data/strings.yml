@@ -54,12 +54,11 @@ cookies_banner:
 not_found:
   title: "404: Page Not Found"
   message: |
-    &lt;Star Wars&gt;This is not the web page you are looking for&lt;/Star Wars&gt;
+    &lt;Star Wars&gt;This is not the web page you are looking for&lt;/Star
+    Wars&gt;</p>
 
     <!--home_link--> back home.
   home_link: Teleport
-
-note_default: Note
 
 offline:
   title: "You are Offline"

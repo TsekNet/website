@@ -202,9 +202,9 @@ hydejack:
     always: false
   # Set to `true` to use the dark theme based on visitors' preference (OS
   # setting).
-    dynamic: false
+    dynamic: true
   # Set to `true` to allow visitors to switch between light and dark mode.
-    icon: false
+    icon: true
 
 ########################################################################################################################
 # Only use if you know what Service Workers are and how they can impact the                                            #

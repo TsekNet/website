@@ -4,11 +4,9 @@ const BEFORE = 'https://tseknet.com';
 const AFTER = 'http://127.0.0.1:4000';
 
 const targets = (base, prefix) => ([
-  { url: `${base}/`, out: `${prefix}-home.png` },
   { url: `${base}/tag/`, out: `${prefix}-tags.png` },
   { url: `${base}/tag/`, out: `${prefix}-tags-scrolled.png`, scrollY: 900 },
   { url: `${base}/blog/psprofile`, out: `${prefix}-psprofile-broken-images.png`, scrollSel: "img[src*='admin_git']" },
-  { url: `${base}/404.html`, out: `${prefix}-404.png` },
 ]);
 
 (async () => {

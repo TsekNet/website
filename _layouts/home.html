@@ -85,7 +85,6 @@ layout: about
 {% elsif site.posts.size > 1 %}
   <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
     {% for post in site.posts limit:6 %}
-      {% assign featured = forloop.first %}
       <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
         {% include_cached pro/post-card.html post=post featured=featured %}
       </div>

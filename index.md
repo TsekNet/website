@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 👋 Hey there
+title: 👋
 sitemap: true
 cover: false
 ---
