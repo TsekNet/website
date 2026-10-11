@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Plex Downloads Still Suck
-image: /assets/img/blog/plex-downloads.jpg
+image: /assets/img/blog/plex-downloads.webp
 description: >
   The unsatisfying story of how I've resolved to download media (movies, etc.) from my NAS to my phone.
 tags: [plex, jellyfin, homelab, smb, nas, tips, windows]
@@ -28,7 +28,7 @@ solutions in the future.
 
 ### 1. Plex Downloads
 
-[Plex](https://plex.tv) downloads used to work great for me, before they ["revamped"](<(https://www.reddit.com/r/PleX/comments/oaf332/sync_is_dead_almost_long_live_downloads/)>) *Sync* into *Downloads*. Ever since this revamp for mobile downloads, I have not been able to reliably download media to my phone using the Plex app on either Android or iOS. I've tried multiple disparate media servers, Operating Systems, and different network configurations/locations/VPNs. Most of the time downloads wouldn't work at all. Sometime in the past month (Jan '24) it looks like Plex has made some attempts at revamping their new downloads feature again. This initially looked promising, as at least some of my downloads were succeeding. But... now any file over ~2GB fails to download across devices and different media servers (similar to before, but smaller files work fine now).
+[Plex](https://plex.tv) downloads used to work great for me, before they ["revamped"](https://www.reddit.com/r/PleX/comments/oaf332/sync_is_dead_almost_long_live_downloads/) *Sync* into *Downloads*. Ever since this revamp for mobile downloads, I have not been able to reliably download media to my phone using the Plex app on either Android or iOS. I've tried multiple disparate media servers, Operating Systems, and different network configurations/locations/VPNs. Most of the time downloads wouldn't work at all. Sometime in the past month (Jan '24) it looks like Plex has made some attempts at revamping their new downloads feature again. This initially looked promising, as at least some of my downloads were succeeding. But... now any file over ~2GB fails to download across devices and different media servers (similar to before, but smaller files work fine now).
 
 I've looked into media server logs, and countless Plex [forum](https://forums.plex.tv/t/downloads-sucks-and-doesn-t-work-error-downloading-item/742233)/[Reddit](https://www.reddit.com/r/PleX/comments/xt6626/why_do_plex_downloads_still_suck_so_much/) threads describing the same woes about the revamped Plex downloads feature that I've described above. No suggestions in those threads fixed my download issues.
 

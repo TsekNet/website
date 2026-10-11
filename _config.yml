@@ -30,7 +30,7 @@ keywords: [
 
 # A (square) logo for the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/logo.png
+logo: /assets/img/logo.webp
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -61,7 +61,7 @@ permalink: /blog/:title
 ########################################################################################################################
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/sidebar-bg.jpg
+accent_image: /assets/img/sidebar-bg.webp
 accent_color: rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -82,7 +82,7 @@ font: Noto Sans, Helvetica, Arial, sans-serif
 font_heading: Roboto Slab, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
-font_code: Fira Code, Menlo, Monaco, Consolas, monospace;
+font_code: Fira Code, Menlo, Monaco, Consolas, monospace
 
 defaults:
   # Don't include documents in assets in the sitemap
@@ -101,8 +101,6 @@ defaults:
         type: WebPage
 
 kramdown:
-  math_engine: katex
-  math_engine_opts: {}
   footnote_backlink: "&#x21a9;&#xfe0e;"
 
 ########################################################################################################################
@@ -197,15 +195,16 @@ hydejack:
   # seeing an old date.
   hide_dates: false
 
-  # Note that dark mode only works in the PRO version of Hydejack.
+  # Note that dark mode only works in the PRO version of Hydejack,
+  # so these stay off in the free version.
   dark_mode:
   # Set to `true` to always use the dark theme.
     always: false
   # Set to `true` to use the dark theme based on visitors' preference (OS
   # setting).
-    dynamic: true
+    dynamic: false
   # Set to `true` to allow visitors to switch between light and dark mode.
-    icon: true
+    icon: false
 
 ########################################################################################################################
 # Only use if you know what Service Workers are and how they can impact the                                            #
@@ -231,8 +230,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE
-include:
-  - .well-known
 
 
 ########################################################################################################################
@@ -254,14 +251,15 @@ plugins:
 # SEO                                                                                                                  #
 ########################################################################################################################
 
-# Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification: UA-175070505-1
+# Where you proof that you own this site (used by jekyll-seo-tag).
+# NOTE: this must be a Search Console verification token, not a Google
+# Analytics property ID. Uncomment and set it once you have one.
+# google_site_verification: <verification-token>
 # -- or --
 # webmaster_verifications:
 # google:  <verification-id>
 # bing: <verification-id>
-# alexa:<verification-id>
-# yandex:  <verification-id>
+# yandex: <verification-id>
 
 # Used for facebook open graph
 # facebook:

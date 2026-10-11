@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: My PowerShell Profile
-image: /assets/img/blog/robotpiano.jpg
+image: /assets/img/blog/robotpiano.webp
 description: >
   Neat functions I've added to make my life easier
 tags: [dev, automation, windows, powershell]
@@ -78,11 +78,11 @@ What happens? What did you expect to happen?
 My personal PowerShell profile is made with [sugar, splice, and everything
 nice](https://www.youtube.com/watch?v=HYhnflyun4E).
 
-![admin](/assets/img/blog/admin_git.png)
+![PowerShell ISE running as administrator](/assets/img/blog/admin_git.webp)
 PowerShell running in an administrative window while working on a git repo
 {:.figcaption}
 
-![admin](/assets/img/blog/non-admin.png)
+![PowerShell running as non-admin](/assets/img/blog/non-admin.webp)
 PowerShell running in a non-admin window while working in `C:\Tmp`
 {:.figcaption}
 
@@ -189,7 +189,7 @@ By leveraging PowerShell profiles, you can make your every day repetitive tasks
 easier.
 
 Wish you could get the weather at any moment from PowerShell? Make a function,
-add it to your profile. Wish you could [get random comics](psoneliners#get-a-random-xkcd-comic)?
+add it to your profile. Wish you could [get random comics](/blog/psoneliners#get-a-random-xkcd-comic)?
 Make a function, add it to your profile.
 
 I invite you to open a [pull request](https://github.com/TsekNet/PowerShell-Profile) if you found any issue with my PowerShell

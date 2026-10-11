@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Can you use a UniFi Camera as a Baby Monitor?
-image: /assets/img/blog/crib_crop.jpg
+image: /assets/img/blog/crib_crop.webp
 description: >
   A post about me trying to justify my purchase to internet strangers
 tags: [tips, personal, parenting, ubiquiti]
@@ -13,7 +13,7 @@ Our nursery, with the baby monitor seen at the top middle.
 - Table of Contents
 {:toc}
 
-To my surprise, I didn't see much information online about using a UniFi camera as a baby monitor when prepping the nursery for our first child. Maybe because the "Baby Crying" alert was new at the time, or maybe using a UniFi camera for as a baby monitor was just a bad idea. I set to figure that out for myself with some unnecessarily strict requirements:
+To my surprise, I didn't see much information online about using a UniFi camera as a baby monitor when prepping the nursery for our first child. Maybe because the "Baby Crying" alert was new at the time, or maybe using a UniFi camera as a baby monitor was just a bad idea. I set to figure that out for myself with some unnecessarily strict requirements:
 
 1. No subscription
 2. Recordings not stored on the Cloud
@@ -35,7 +35,7 @@ To my surprise, I didn't see much information online about using a UniFi camera 
 A UniFi G5 Flex camera, on a camera stand, powered via PoE.
 {:.tldr}
 
-![crib_day_view](../../assets/img/blog/crib_day_view.png)
+![crib_day_view](/assets/img/blog/crib_day_view.webp)
 The camera's view
 {:.figcaption}
 
@@ -66,7 +66,7 @@ $161 to get a solution that fits all of my requirements:
 3. Ethernet handles power and data, no Wi-Fi involved (PoE)
 4. Camera can be moved to other rooms
 5. UniFi Protect can be accessed remotely, even outside your internal network
-6. Crying baby alerts fire reliably through UniFi Protect (although we can hear kiddo even without a mobile alert). This works across multiple devices simultaneously, which is useful for when someone else is babysitting. <br><img src="../../assets/img/blog/baby_alert.png" alt="baby alert" width="250" height="250">
+6. Crying baby alerts fire reliably through UniFi Protect (although we can hear kiddo even without a mobile alert). This works across multiple devices simultaneously, which is useful for when someone else is babysitting. <br><img src="/assets/img/blog/baby_alert.png" alt="baby alert" width="250" height="250">
 
 ...and I get to view the baby monitor where I already view all my other security cameras, no additional storage required.
 

@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Help Desk Intern to SRE @Google in Five Years
-image: /assets/img/blog/kidstairs.jpg
+image: /assets/img/blog/kidstairs.webp
 description: >
   My career journey (so far)
 tags: [devops, motivation, productivity, sre, tips]
